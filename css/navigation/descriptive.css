@@ -1,0 +1,85 @@
+@media screen, projection {
+	#primarynav.descriptive, #secondarynav.descriptive {
+		border-top: 1px solid #bcbcbc;
+		border-bottom: 1px solid #bcbcbc
+	}
+	.descriptive .ym-hlist {
+		background: #fff;
+		display:inline;
+		float:left;
+		width:100%;
+		padding: 4px 0
+	}
+	.descriptive ul {
+		display:inline;
+		float:left;
+		margin:0;
+		width:100%
+	}
+	.descriptive ul li {
+		display:inline;
+		float:left;
+		width: 16.667%;
+		line-height: 1.0em;
+		list-style-type:none;
+		margin:0;
+		padding:0
+	}
+	.descriptive ul li.last {
+		float: right;
+		margin-left: -5px
+	}
+	.descriptive ul li:last-child {
+		float: right;
+		margin-left: -5px
+	}
+	.descriptive ul li a {
+		display:block;
+		font-weight:bold;
+		min-height:4em;
+		margin:0;
+		padding:8px 10px;
+		border-right: 1px solid #bcbcbc;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size: 1.0834em
+	}
+	.descriptive ul li.first a {
+		border-left: 1px solid #bcbcbc
+	}
+	.descriptive ul li:first-child a {
+		border-left: 1px solid #bcbcbc
+	}
+	.descriptive ul li a span {
+		color:#444;
+		display:block;
+		font-size:0.8458em;
+		font-weight:normal;
+		padding-top: 0.75em
+	}
+	.descriptive ul li a:focus, .descriptive ul li a:hover, .descriptive ul li a:active {
+		background:#222;
+		color:#fff;
+		outline: none
+	}
+	.descriptive ul li a:focus span, .descriptive ul li a:hover span, .descriptive ul li a:active span {
+		background:#222;
+		border-color:#000;
+		color:#ccc
+	}
+	.descriptive ul li.current-menu-item, .descriptive ul li.current-menu-item a,
+	.descriptive ul li.current_page_parent, .descriptive ul li.current_page_parent a {
+		background:#cfcfcf;
+		color:#fff
+	}
+	.descriptive ul li.current-menu-item a span, .descriptive ul li.current_page_parent a span {
+		background:#cfcfcf;
+		color:#fff
+	}
+	.descriptive ul li.current-menu-item a:focus span, .descriptive ul li.current-menu-item a:hover span,
+	.descriptive ul li.current-menu-item a:active span, .descriptive ul li.current_page_parent a:focus span,
+	.descriptive ul li.current_page_parent a:hover span, .descriptive ul li.current_page_parent a:active span {
+		background:transparent;
+		color: #444
+	}
+}

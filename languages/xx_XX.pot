@@ -1,0 +1,4223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Xtreme One v1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-01 18:08+0100\n"
+"PO-Revision-Date: 2013-03-01 18:09+0100\n"
+"Last-Translator: Birgit Olzem <coachbirgit@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ xtreme-one
+#: 404.php:8 404.php:11 includes/notfound.php:8
+msgid "Sorry, Page Not Found"
+msgstr ""
+
+# @ xtreme-one
+#: 404.php:14 includes/notfound.php:9
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+# @ xtreme-one
+#: author.php:20
+#, php-format
+msgid "About %s"
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:26 comments.php:42
+msgid "Older Comments <span>&raquo;</span>"
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:27 comments.php:43
+msgid "<span>&laquo;</span> Newer Comments"
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:30
+#, php-format
+msgid "One Response"
+msgid_plural "%1$s Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ xtreme-one
+#: comments.php:50
+msgid "Ping"
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:50
+msgid "Pings"
+msgstr ""
+
+# @ xtreme-one
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+# @ xtreme-one
+#: html5loop-attachment.php:19 loop-attachment.php:16
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+# @ xtreme-one
+#: html5loop-attachment.php:19 loop-attachment.php:16
+msgid "Back to"
+msgstr ""
+
+# @ xtreme-one
+#: page-comments.php:28 page.php:27
+#: includes/posttemplates/content-single.php:7
+#: includes/posttemplates/html5-content-single.php:15
+msgid "Pages:"
+msgstr ""
+
+# @ xtreme-one
+#: page-comments.php:29 page.php:28
+#: includes/posttemplates/content-single.php:8
+#: includes/posttemplates/html5-content-single.php:16
+#: lib/xtreme-post-functions.php:277
+msgid "Edit"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:70
+msgid ""
+"<strong>Error:</strong> There was an error connecting to the server, Please "
+"verify the settings are correct."
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:90
+msgid "To modify theme related files, connection information is required."
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:92
+msgid ""
+"Your WordPress installation does not permit direct file access and have to "
+"use FTP access therefore."
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:93
+msgid ""
+"If you want to avoid repeatedly requests for credentials here, you could "
+"also define at <b><i>wp-config.php</i></b> this constants:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:96
+msgid "define('FTP_HOST', 'your ftp hostname');"
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:97
+msgid "define('FTP_USER', 'your ftp username');"
+msgstr ""
+
+# @ xtreme-one
+#: admin/file_access.php:98
+msgid "define('FTP_PASS', 'your ftp password');"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:102
+msgid "Hostname"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:107
+msgid "Username"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:112
+msgid "Password"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:118
+msgid "Authentication Keys"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:120
+msgid "Public Key:"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:121
+msgid "Private Key:"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:124
+msgid ""
+"Enter the location on the server where the keys are located. If a passphrase "
+"is needed, enter that in the password field above."
+msgstr ""
+
+# @ default
+#: admin/file_access.php:129 admin/file_access.php:131
+msgid "Connection Type"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:132
+msgid "FTP"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:134
+msgid "FTPS (SSL)"
+msgstr ""
+
+# @ default
+#: admin/file_access.php:137
+msgid "SSH"
+msgstr ""
+
+# @ default
+#: admin/writer.php:51
+msgid "Credentials required."
+msgstr ""
+
+# @ default
+#: admin/writer.php:57
+msgid "Credentials are wrong or mistyped."
+msgstr ""
+
+# @ default
+#: admin/writer.php:61
+msgid "Could not access filesystem."
+msgstr ""
+
+# @ default
+#: admin/writer.php:81
+#, php-format
+msgid "Directory %s could not be created."
+msgstr ""
+
+# @ default
+#: admin/writer.php:87
+#, php-format
+msgid "File %s could not be written."
+msgstr ""
+
+# @ default
+#: admin/xtreme-admin-functions.php:18
+#, php-format
+msgid "<strong>RSS Error</strong>: %s"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-admin-functions.php:24
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr ""
+
+# @ default
+#: admin/xtreme-admin-functions.php:36
+msgid "Untitled"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-admin-functions.php:61
+msgid "The Latest News From Xtreme Themes"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-admin-functions.php:73
+msgid "Xtreme Default Avatar"
+msgstr ""
+
+#: admin/xtreme-backend.php:120
+msgid ""
+"Xtreme Theme Framework - General Option: <strong><em>Compress Stylesheets</"
+"em></strong> has been disabled during update. Please enable it and press "
+"Generate Theme again."
+msgstr ""
+
+#: admin/xtreme-backend.php:151
+msgid "Featured Image"
+msgstr ""
+
+#: admin/xtreme-backend.php:161
+msgid "undefined"
+msgstr ""
+
+#: admin/xtreme-backend.php:166
+msgid "Settings"
+msgstr ""
+
+#: admin/xtreme-backend.php:182
+#: admin/includes/class-xtreme-documentation.php:111
+#: admin/includes/class-xtreme-documentation.php:118
+#: admin/includes/xtreme-backend-functions.php:40
+msgid "Documentation"
+msgstr ""
+
+#: admin/xtreme-backend.php:207
+msgid "Auto-Update"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backend.php:229 admin/xtreme-backend.php:269
+msgid "Generate Theme"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backend.php:241
+msgid "Xtreme Configuration Center"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backend.php:259
+msgid "Connection information might be requiered to Generate Theme"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backend.php:270
+msgid "Load Default Options"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backend.php:271
+msgid "Uninstall Theme"
+msgstr ""
+
+# @ default
+#: admin/xtreme-backend.php:312 admin/xtreme-backup.php:214
+#: admin/xtreme-backup.php:238 admin/xtreme-layouts.php:299
+#: admin/xtreme-widgets-admin.php:323 lib/xtreme-widget-manager.php:520
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+# @ default
+#: admin/xtreme-backend.php:477 admin/xtreme-layouts.php:491
+msgid "You do not have the permission to configure this theme."
+msgstr ""
+
+#: admin/xtreme-backup.php:40
+msgid "Backup"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:60
+msgid ""
+"The <em>Xtreme One</em> versions does not match the XML file provided "
+"version, Import failed."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:63
+msgid ""
+"The <em>Xtreme One</em> backup XML file is suited for a different Theme, "
+"Import failed."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:66
+msgid ""
+"The <em>Xtreme One</em> backup XML file content is malformed, Import failed."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:69
+msgid ""
+"The file is no suitable <em>Xtreme One</em> backup XML file, Import failed."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:77
+msgid ""
+"Xtreme One configuration import successful. Widget import permitted and done."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:80
+msgid ""
+"Xtreme One configuration imported successful. Widget import was not "
+"permitted and has been skipped."
+msgstr ""
+
+#: admin/xtreme-backup.php:103
+msgid "Xtreme One - Export"
+msgstr ""
+
+#: admin/xtreme-backup.php:104
+msgid "Xtreme One - Import"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:109
+msgid ""
+"You can export your current theme configuration including the Widget Area "
+"Settings as *.xml file for safety reasons.<br/>You will be able to restore "
+"later on your current configuration based on the export file content in case "
+"of blog damage or host moving."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:110
+msgid "Export Current Configuration"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:118
+msgid "Connection information might be required to Import Configurations"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:128
+msgid ""
+"You can import a saved configuration and re-generated the theme. Please keep "
+"in mind, that your current configuration will be lost.<br/>Furthermore the "
+"import will only succeed, if <em>Xtreme One</em> main version matches, child "
+"theme is the same and file content is not corrupt."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:129
+msgid ""
+"permit widget import <small>(It could be possible that 3rd party widgets "
+"being imported may break your WordPress install.)</small>"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:130
+msgid "Import Configuration"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-backup.php:159
+msgid "Xtreme Backup Center"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:44
+msgid "No files applied to the new layout."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:47
+msgid "You can not apply all files to a new Layout."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:50
+msgid "You can not remove the only one remaining file from layout."
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:58
+msgid "Layout deleted."
+msgstr ""
+
+#: admin/xtreme-layouts.php:123
+msgid "Layouts"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:187
+msgid "Xtreme Layouts"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:204
+msgid "Connection information might be required to Modify Layouts"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:215
+msgid "Save"
+msgstr ""
+
+# @ xtreme-one
+#: admin/xtreme-layouts.php:216 lib/xtreme-widget-manager.php:595
+msgid "Cancel"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:37
+msgid "Xtreme One"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:37 admin/xtreme-widgets-admin.php:58
+#: admin/xtreme-widgets-admin.php:201
+msgid "Widgets"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:38
+#, php-format
+msgid ""
+"If you want to limit the amount of visible or allowed Widgets, you can limit "
+"them at the page %s."
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:85
+msgid "Widgets General"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:86
+msgid "WordPress Core Widgets"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:87
+msgid "Xtreme One Widgets"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:88 admin/xtreme-widgets-admin.php:266
+msgid "Custom Plugin Widgets"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:89
+msgid "Custom Deprecated Widgets"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:97 admin/xtreme-widgets-admin.php:98
+msgid "unknown"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:125
+msgid "Edit Filter"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:125
+msgid "Collapse"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:125
+msgid "Reset All Filter"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:136
+msgid "change all widgets at this section at once"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:148
+msgid "automatic permission for any new widget"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:151
+msgid "enable advanced widget filter capabilities"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:154
+msgid "enable automatic tabbed widgets feature"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:159
+msgid "Content Widgets:"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:197
+msgid "Widget Permission Settings"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:201
+msgid "Appearance"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:202
+#, php-format
+msgid ""
+"You want to limit the amount of available widgets at the page %s, you can "
+"allow or deny the utilization of each specific widget in detail here."
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:204
+msgid "Attention:"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:204
+msgid ""
+"If you switch off widgets here, please be sure, that you are not using it. "
+"Used widgets switched off, will loose all their settings and will not be "
+"parked."
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:220
+msgid "Save Settings"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:221
+msgid "Reset to general permission"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:258
+msgid "Widget Collections"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:261
+msgid "Xtreme One Framework"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:271
+msgid "WordPress (Default)"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:278
+msgid "Edit Widget Parameter"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:279
+msgid "Delete Widget"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:280
+msgid "enable/disable right margin"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:281
+msgid "enable/disable left margin"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:294 admin/xtreme-widgets-admin.php:303
+#: admin/xtreme-widgets-admin.php:312
+#, php-format
+msgid "Count Widgets: %d"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:358
+msgid "Content Widget - Error"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:359
+msgid ""
+"The requested Widget data can not be found. This may be the result while you "
+"deleted the widget but reloaded the content without prior save. Please "
+"remove this Widget and save the content."
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:419
+msgid "Content Widget"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:426
+msgid "Alignment"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:428
+msgid "None"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:429
+msgid "Left"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:430
+msgid "Center"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:431
+msgid "Right"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:435
+msgid "Width"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:456
+msgid "Update Content Widget Parameter"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:456
+msgid "Update"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:458
+msgid "Insert New Content Widget"
+msgstr ""
+
+#: admin/xtreme-widgets-admin.php:458
+msgid "Insert"
+msgstr ""
+
+#: admin/includes/class-auto-update.php:136
+#: admin/includes/class-auto-update.php:348
+msgid "Activate"
+msgstr ""
+
+#: admin/includes/class-auto-update.php:317
+#, php-format
+msgid ""
+"Your license for the product %s is not valid. The Auto-Update has been "
+"deactivated. Please insert a valid key in the MarketPress Dashboard. Or if "
+"you want to add an other valid code use the form below."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:323
+msgid ""
+"You are currently using a valid key for this product. You are able to renew "
+"the key in the MarketPress Dashboard. Or if you want to add an other valid "
+"code use the form below."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:332
+#, php-format
+msgid ""
+"Your license for the product %s is not valid. The Auto-Update has been "
+"deactivated."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:338
+#, php-format
+msgid ""
+"You are currently using a valid key for this product. You are able to renew "
+"the key below or you can delete the key by <a href=\"%s\">clicking here</a>."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:345
+msgid "License Key"
+msgstr ""
+
+#: admin/includes/class-auto-update.php:520
+msgid "The License has been deleted."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:527
+msgid "Product successfully activated."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:534
+msgid "The entered license key is wrong."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:541
+msgid ""
+"You have reached the limit of urls. Please update your license at <a href="
+"\"http://marketpress.com\">marketpress.com</a>."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:548
+msgid ""
+"Something went wrong. Please try again later or contact the <a href=\"http://"
+"marketpress.com/support/\">marketpress team</a>."
+msgstr ""
+
+#: admin/includes/class-auto-update.php:555
+msgid ""
+"Due to a wrong license you are not allowed to activate this plugin. Please "
+"update your license at <a href=\"http://marketpress.com\">marketpress.com</"
+"a>."
+msgstr ""
+
+#: admin/includes/class-xtreme-documentation.php:148
+msgid "Loading Menu ..."
+msgstr ""
+
+#: admin/includes/class-xtreme-documentation.php:188
+#: admin/includes/class-xtreme-documentation.php:284
+msgid "Could not connect to remote host. Please try again later."
+msgstr ""
+
+#: admin/includes/class-xtreme-documentation.php:234
+#: admin/includes/class-xtreme-documentation.php:242
+msgid "Loading Content ..."
+msgstr ""
+
+#: admin/includes/xtreme-backend-functions.php:29
+#, php-format
+msgid "and %s."
+msgstr ""
+
+#: admin/includes/xtreme-backend-functions.php:31
+msgid "without any child theme (not recommended)."
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:39
+msgid "Theme Homepage"
+msgstr ""
+
+#: admin/includes/xtreme-backend-functions.php:41
+msgid "Support Forum"
+msgstr ""
+
+#: admin/includes/xtreme-backend-functions.php:45
+#, php-format
+msgid "You are using Xtreme One Version %1s %2s"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:52
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "1 column"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:53
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+#: admin/includes/xtreme-metaboxes-layout.php:44
+msgid "2 columns - right sidebar"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:54
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "2 columns - left sidebar"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:55
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "3 columns - left and right sidebars"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:56
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "3 columns - 2 right sidebars"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:57
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "3 columns - 2 left sidebars"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:77
+msgid "Pages"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:78
+msgid "Categories"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:90
+#: admin/includes/xtreme-metaboxes-default.php:21
+#: admin/includes/xtreme-metaboxes-default.php:66
+#: admin/includes/xtreme-metaboxes-default.php:67
+#: admin/includes/xtreme-metaboxes-default.php:68
+#: admin/includes/xtreme-metaboxes-default.php:70
+#: admin/includes/xtreme-metaboxes-default.php:71
+#: admin/includes/xtreme-metaboxes-default.php:72
+#: admin/includes/xtreme-metaboxes-default.php:101
+#: admin/includes/xtreme-metaboxes-default.php:145
+#: admin/includes/xtreme-metaboxes-layout.php:25
+#: admin/includes/xtreme-metaboxes-layout.php:26
+#: admin/includes/xtreme-metaboxes-layout.php:27
+#: admin/includes/xtreme-metaboxes-layout.php:33
+#: admin/includes/xtreme-metaboxes-layout.php:34
+#: admin/includes/xtreme-metaboxes-layout.php:35
+#: widgets/xtreme-accessible-category-tabber.php:276
+#: widgets/xtreme-carousel-media-slider.php:222
+#: widgets/xtreme-carousel-media-slider.php:307
+#: widgets/xtreme-carousel-post-slider.php:249
+#: widgets/xtreme-carousel-post-slider.php:331
+#: widgets/xtreme-column-posts.php:346
+#: widgets/xtreme-equal-heights-pages.php:293
+#: widgets/xtreme-equal-heights-posts.php:364
+#: widgets/xtreme-featurelist-posts.php:269 widgets/xtreme-grid-pages.php:285
+#: widgets/xtreme-grid-posts.php:382
+msgid "left"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:91
+#: admin/includes/xtreme-metaboxes-default.php:21
+#: admin/includes/xtreme-metaboxes-default.php:66
+#: admin/includes/xtreme-metaboxes-default.php:67
+#: admin/includes/xtreme-metaboxes-default.php:68
+#: admin/includes/xtreme-metaboxes-default.php:70
+#: admin/includes/xtreme-metaboxes-default.php:71
+#: admin/includes/xtreme-metaboxes-default.php:72
+#: admin/includes/xtreme-metaboxes-layout.php:25
+#: admin/includes/xtreme-metaboxes-layout.php:26
+#: admin/includes/xtreme-metaboxes-layout.php:27
+#: admin/includes/xtreme-metaboxes-layout.php:33
+#: admin/includes/xtreme-metaboxes-layout.php:34
+#: admin/includes/xtreme-metaboxes-layout.php:35
+#: widgets/xtreme-accessible-category-tabber.php:278
+#: widgets/xtreme-carousel-media-slider.php:224
+#: widgets/xtreme-carousel-post-slider.php:251
+#: widgets/xtreme-column-posts.php:348
+#: widgets/xtreme-equal-heights-pages.php:295
+#: widgets/xtreme-equal-heights-posts.php:366
+#: widgets/xtreme-grid-pages.php:287 widgets/xtreme-grid-posts.php:384
+msgid "center"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-backend-functions.php:92
+#: admin/includes/xtreme-metaboxes-default.php:21
+#: admin/includes/xtreme-metaboxes-default.php:66
+#: admin/includes/xtreme-metaboxes-default.php:67
+#: admin/includes/xtreme-metaboxes-default.php:68
+#: admin/includes/xtreme-metaboxes-default.php:70
+#: admin/includes/xtreme-metaboxes-default.php:71
+#: admin/includes/xtreme-metaboxes-default.php:72
+#: admin/includes/xtreme-metaboxes-default.php:101
+#: admin/includes/xtreme-metaboxes-default.php:145
+#: admin/includes/xtreme-metaboxes-layout.php:25
+#: admin/includes/xtreme-metaboxes-layout.php:26
+#: admin/includes/xtreme-metaboxes-layout.php:27
+#: admin/includes/xtreme-metaboxes-layout.php:33
+#: admin/includes/xtreme-metaboxes-layout.php:34
+#: admin/includes/xtreme-metaboxes-layout.php:35
+#: widgets/xtreme-accessible-category-tabber.php:277
+#: widgets/xtreme-carousel-media-slider.php:223
+#: widgets/xtreme-carousel-media-slider.php:306
+#: widgets/xtreme-carousel-post-slider.php:250
+#: widgets/xtreme-carousel-post-slider.php:330
+#: widgets/xtreme-column-posts.php:347
+#: widgets/xtreme-equal-heights-pages.php:294
+#: widgets/xtreme-equal-heights-posts.php:365
+#: widgets/xtreme-featurelist-posts.php:270 widgets/xtreme-grid-pages.php:286
+#: widgets/xtreme-grid-posts.php:383
+msgid "right"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:36
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/xtreme-dialogs.php:77
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:567
+msgid "You do not have the permission to change widget filter exceptions."
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:570 admin/includes/xtreme-dialogs.php:649
+#: admin/includes/xtreme-dialogs.php:796 admin/includes/xtreme-dialogs.php:866
+msgid "Close"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:580
+msgid "Edit Filter Exceptions for:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:587 admin/includes/xtreme-dialogs.php:811
+msgid "Sidebar:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:588 admin/includes/xtreme-dialogs.php:812
+msgid "Widget:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:593 admin/includes/xtreme-dialogs.php:641
+#: lib/xtreme-widget-manager.php:122
+msgid "Search"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:595
+msgid "Media Types"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:598 lib/xtreme-widget-manager.php:105
+#: lib/xtreme-widget-manager.php:110
+msgid "All"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:601
+msgid "Images"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:616
+msgid "Title"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:618
+msgid "Media Link"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-dialogs.php:620
+#: widgets/xtreme-accessible-category-tabber.php:346
+#: widgets/xtreme-column-posts.php:439
+#: widgets/xtreme-equal-heights-posts.php:461
+#: widgets/xtreme-grid-posts.php:479
+msgid "Excerpt"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:645
+msgid "Selected Items:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:646
+msgid "Show Selection"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:647
+msgid "Show Overview"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:650 admin/includes/xtreme-dialogs.php:653
+#: admin/includes/xtreme-dialogs.php:867
+msgid "Apply"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:652
+msgid "Back to Condition Editor"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:728
+msgctxt "condition filters"
+msgid "AND"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:733
+msgctxt "condition filters"
+msgid "OR"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:738
+msgctxt "condition filters"
+msgid "NOT"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:743
+msgctxt "condition filters"
+msgid "is paged"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:747
+msgctxt "condition filters"
+msgid "is preview"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:751
+msgctxt "condition filters"
+msgid "in post formats"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:754
+msgctxt "condition filters"
+msgid "in categories"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:757
+msgctxt "condition filters"
+msgid "in tags"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:760
+msgctxt "condition filters"
+msgid "in authors"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:764
+msgctxt "condition filters"
+msgid "in tax..."
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:767
+msgctxt "condition filters"
+msgid "is logged in"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:771
+msgctxt "condition filters"
+msgid "has roles"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:774
+msgctxt "condition filters"
+msgid "has caps"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:783
+msgid "Items:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:793
+msgid "You do not have the permission to change widget filters expressions."
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:804
+msgid "Edit Filter Condition for:"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:815
+msgid "logical operators / brackets and simple terms"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:828
+msgid "editable subset selector conditions"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:839
+msgid "authentication related conditions"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:847
+msgid "Advanced Condition Editor"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:847
+msgid "use drag & drop to build your condition"
+msgstr ""
+
+#: admin/includes/xtreme-dialogs.php:865
+msgid "Reset Expression"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:13
+msgid "General Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:14
+msgid "Output HTML5:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:15
+msgid "Body Fontsize:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:16
+#: admin/includes/xtreme-metaboxes-default.php:51
+#: admin/includes/xtreme-metaboxes-default.php:114
+#: admin/includes/xtreme-metaboxes-default.php:129
+#: admin/includes/xtreme-metaboxes-layout.php:15
+msgid "Layout:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:16
+msgid "fixed"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:16
+msgid "flexible"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:17
+msgid "Minimum Layout Width:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:18
+msgid "Maximum Layout Width:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:19
+msgid "Layout Width:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:21
+msgid "Alignment:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:23
+msgid "Design:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:23
+msgid "blog layout"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:23
+msgid "full page layout"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:28
+msgid "Color Style:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:38
+msgid "Activate WAI Aria Roles:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:39
+msgid "Include YAMLs nav_vlist.css:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:41
+msgid ""
+"If you switch the content position, make sure to check your settings in the "
+"layout manager for every layout."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:42
+msgid "Generate Markup with Content at first Position:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:49
+msgid "Default Layout Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:50
+msgid ""
+"You can overrule these settings for each template file under Xtreme Layouts."
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:52
+#: admin/includes/xtreme-metaboxes-layout.php:16
+msgid ""
+"In this case width of Sidebar 1 and width of Sidebar 2 must have the same "
+"units!"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:54
+#: admin/includes/xtreme-metaboxes-layout.php:21
+msgid "Sidebar 1 Width:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:55
+#: admin/includes/xtreme-metaboxes-default.php:58
+#: admin/includes/xtreme-metaboxes-layout.php:22
+#: admin/includes/xtreme-metaboxes-layout.php:30
+msgid "Sidebar 2 Width:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:57
+#: admin/includes/xtreme-metaboxes-layout.php:29
+msgid "Content Width:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:60
+#: admin/includes/xtreme-metaboxes-default.php:63
+#: admin/includes/xtreme-metaboxes-layout.php:23
+#: admin/includes/xtreme-metaboxes-layout.php:31
+msgid "File Sidebar 1:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:61
+#: admin/includes/xtreme-metaboxes-default.php:64
+#: admin/includes/xtreme-metaboxes-layout.php:24
+#: admin/includes/xtreme-metaboxes-layout.php:32
+msgid "File Sidebar 2:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:66
+#: admin/includes/xtreme-metaboxes-default.php:70
+#: admin/includes/xtreme-metaboxes-layout.php:25
+#: admin/includes/xtreme-metaboxes-layout.php:33
+msgid "Sidebar 1 Textalignment:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:67
+#: admin/includes/xtreme-metaboxes-default.php:71
+#: admin/includes/xtreme-metaboxes-layout.php:26
+#: admin/includes/xtreme-metaboxes-layout.php:34
+msgid "Sidebar 2 Textalignment:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:68
+#: admin/includes/xtreme-metaboxes-default.php:72
+#: admin/includes/xtreme-metaboxes-layout.php:27
+#: admin/includes/xtreme-metaboxes-layout.php:35
+msgid "Content Textalignment:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:74
+#: admin/includes/xtreme-metaboxes-layout.php:37
+msgid "Use Header:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:75
+#: admin/includes/xtreme-metaboxes-layout.php:38
+msgid "Use Teaser:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:76
+#: admin/includes/xtreme-metaboxes-layout.php:39
+msgid "Use Footer:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:77
+#: admin/includes/xtreme-metaboxes-layout.php:40
+msgid "Use Siteinfo:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:89
+msgid "Sidebar Tag:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:90
+msgid "Tag before Title in Sidebars Widget Areas:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:91
+msgid "HTML5 Tag of Sidebars:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:98
+msgid "Header Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:99
+#: admin/includes/xtreme-metaboxes-default.php:143
+msgid "Add a Second Area:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:100
+#: admin/includes/xtreme-metaboxes-default.php:144
+msgid "Second Area as Widget Area:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:101
+#: admin/includes/xtreme-metaboxes-default.php:145
+msgid "Position of the Second Area:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:102
+#: admin/includes/xtreme-metaboxes-default.php:146
+msgid "Width of the Second Area:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:103
+msgid "Blogtitle:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:103
+msgid "Text with link"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:103
+msgid "Image with link"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:103
+msgid "Text without link"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:103
+msgid "Image without link"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:104
+msgid "Blogtitle Tag:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:105
+msgid "Show Blog Description:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:106
+msgid "Blog Description Tag:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:107
+#: admin/includes/xtreme-metaboxes-default.php:122
+#: admin/includes/xtreme-metaboxes-default.php:136
+#: admin/includes/xtreme-metaboxes-default.php:150
+#: admin/includes/xtreme-metaboxes-default.php:193
+msgid "HTML5 Tag:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:113
+msgid "Footer Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:114
+#: admin/includes/xtreme-metaboxes-default.php:129
+msgid "Columns"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:116
+#, php-format
+msgid "Area %d Textalign (from left to right):"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:118
+#: admin/includes/xtreme-metaboxes-default.php:133
+msgid "Tag before Widget:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:119
+#: admin/includes/xtreme-metaboxes-default.php:134
+msgid "Tag before Title:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:120
+msgid "Hide Powered by:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:121
+#: admin/includes/xtreme-metaboxes-default.php:135
+msgid "Use Syncheight Script:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:128
+msgid "Teaser Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:131
+#, php-format
+msgid "Area %d Textalignment (from left to right):"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:142
+msgid "Siteinfo Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:147
+msgid "Use a Copyright Message:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:148
+msgid "Copyright Start Year:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:149
+msgid "Show Queries:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:156
+msgid "Navigation/Search Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:157
+msgid ""
+"Note: If you select the position &raquo;inside header - first area&laquo; or "
+"&raquo;inside header - second area&laquo; for a navigation, please make sure "
+"to enable &raquo;Add a Second Area&laquo; in the section of &raquo;Header "
+"Settings&laquo;."
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:158
+msgid "Primary Navigation"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:159
+#: admin/includes/xtreme-metaboxes-default.php:175
+#: widgets/xtreme-accessible-category-tabber.php:288
+#: widgets/xtreme-accessible-category-tabber.php:315
+#: widgets/xtreme-accessible-category-tabber.php:330
+#: widgets/xtreme-accessible-category-tabber.php:372
+#: widgets/xtreme-column-posts.php:358 widgets/xtreme-column-posts.php:385
+#: widgets/xtreme-column-posts.php:408 widgets/xtreme-column-posts.php:423
+#: widgets/xtreme-column-posts.php:466
+#: widgets/xtreme-equal-heights-pages.php:305
+#: widgets/xtreme-equal-heights-pages.php:332
+#: widgets/xtreme-equal-heights-pages.php:355
+#: widgets/xtreme-equal-heights-pages.php:370
+#: widgets/xtreme-equal-heights-posts.php:376
+#: widgets/xtreme-equal-heights-posts.php:403
+#: widgets/xtreme-equal-heights-posts.php:426
+#: widgets/xtreme-equal-heights-posts.php:441
+#: widgets/xtreme-equal-heights-posts.php:487
+#: widgets/xtreme-grid-pages.php:297 widgets/xtreme-grid-pages.php:324
+#: widgets/xtreme-grid-pages.php:347 widgets/xtreme-grid-pages.php:362
+#: widgets/xtreme-grid-posts.php:394 widgets/xtreme-grid-posts.php:421
+#: widgets/xtreme-grid-posts.php:444 widgets/xtreme-grid-posts.php:459
+#: widgets/xtreme-grid-posts.php:506
+#: widgets/xtreme-jqfancy-mediaslider.php:238
+#: widgets/xtreme-jqfancy-slider.php:264
+msgid "Position:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+#: admin/includes/xtreme-metaboxes-default.php:189
+msgid "not used"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "before header"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside of header at the top"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside header - second area"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside of header at the bottom"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "after header"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "before main"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "before siteinfo"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside header - first area"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside of siteinfo at the top"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside siteinfo - second area"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside of siteinfo at the bottom"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "inside siteinfo - first area"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:160
+#: admin/includes/xtreme-metaboxes-default.php:176
+msgid "after image header"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:161
+#: admin/includes/xtreme-metaboxes-default.php:177
+msgid "Stylesheet:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:162
+#: admin/includes/xtreme-metaboxes-default.php:178
+#: widgets/xtreme-equal-heights-pages.php:364
+#: widgets/xtreme-featurelist-posts.php:282 widgets/xtreme-grid-pages.php:356
+msgid "Content:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:163
+msgid "Menu Order/ID"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:163
+msgid "Post Title/Name"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:164
+#: admin/includes/xtreme-metaboxes-default.php:179
+msgid "Sort by:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:165
+#: widgets/xtreme-accessible-category-tabber.php:275
+#: widgets/xtreme-carousel-media-slider.php:221
+#: widgets/xtreme-carousel-post-slider.php:248
+#: widgets/xtreme-column-posts.php:345
+#: widgets/xtreme-equal-heights-pages.php:292
+#: widgets/xtreme-equal-heights-posts.php:363
+#: widgets/xtreme-grid-pages.php:284 widgets/xtreme-grid-posts.php:381
+msgid "none"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:165
+msgid "include"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:165
+msgid "exclude"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:166
+#: admin/includes/xtreme-metaboxes-default.php:180
+msgid "Include/Exclude from Menu:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:167
+#: admin/includes/xtreme-metaboxes-default.php:181
+msgid "Enter IDs, comma separated:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:168
+#: admin/includes/xtreme-metaboxes-default.php:182
+msgid "Menu Depth:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:168
+#: admin/includes/xtreme-metaboxes-default.php:182
+msgid "No limit"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:169
+#: admin/includes/xtreme-metaboxes-default.php:183
+msgid "Create a Home Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:170
+#: admin/includes/xtreme-metaboxes-default.php:184
+msgid "Text of the Home Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:170
+#: admin/includes/xtreme-metaboxes-default.php:184
+msgid "Home"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:171
+#: admin/includes/xtreme-metaboxes-default.php:185
+msgid "Use Menu Description:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:172
+#: admin/includes/xtreme-metaboxes-default.php:186
+msgid "Enable Superfish Dropdown JavaScript:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:174
+msgid "Secondary Navigation"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:188
+msgid "General Search Options"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:189
+msgid "Searchform in Navigation:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:189
+msgid "primary navigation"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:189
+msgid "secondary navigation"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:190
+msgid "Show Submit Button"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:191
+#: admin/includes/xtreme-metaboxes-default.php:227
+msgid "Submit Button Text:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:191
+msgid "Submit"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:192
+msgid "Searchfield Text:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:192
+msgid "Search..."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:199
+msgid "Archive Pagination Settings"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:200
+msgid "Pagination Type:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:200
+msgid "Older/Newer Post Links"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:200
+msgid "Page Number List"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:201
+msgid "Number of Pages at start / end of list:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:202
+msgid "Number of Pages left / right from current:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:203
+msgid "Show all available Pages:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:204
+msgid "Show Prev/Next Short Links:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:205
+msgid "Display as:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:205
+msgid "pure links only"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:205
+msgid "unordered list"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:211
+msgid "Comment and Comment Form Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:213
+msgid "Comments Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:214
+msgid "Show Gravatar:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:215
+msgid "Gravatar Size:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:216
+msgid "Gravatar Alignment:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:217
+msgid "Comments and Pings displaying in Tabs:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:219
+msgid "Comment Form Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:220
+msgid "Comment Form Layout:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:220
+msgid "linear"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:220
+msgid "columnar"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:220
+msgid "full"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:221
+msgid "Reply Title:"
+msgstr ""
+
+# @ default
+#: admin/includes/xtreme-metaboxes-default.php:221
+msgid "Leave a Reply"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:222
+msgid "Cancel Reply Title:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:222
+msgid "Cancel reply"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:223
+msgid "Notes on Top of Comment Form:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:223
+msgid "Your email address will not be published. Required fields are marked *."
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:224
+msgid "Additional Text before Form Fields:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:225
+msgid "Additional Text before Textarea:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:226
+msgid "Display allowed HTML Tags:"
+msgstr ""
+
+# @ default
+#: admin/includes/xtreme-metaboxes-default.php:227
+msgid "Post Comment"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:228
+msgid "Tag before comments and ping Title:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:234
+msgid "Print Stylesheet Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:235
+msgid "Print Byline:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:236
+msgid "Print Authorbox on Single View:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:237
+msgid "Print Comments:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:238
+msgid "Print the URL of Hyperlinks:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:244
+msgid "General WordPress Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:245
+msgid "Remove Document Title:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:246
+msgid "Remove Meta Description:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:247
+msgid "Remove Meta Robots:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:248
+msgid "Remove Extra Feeds:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:249
+msgid "Remove Feed Links:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:250
+msgid "Remove RSD Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:251
+msgid "Remove Windows Live Writer Manifest Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:252
+msgid "Remove Index Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:253
+msgid "Remove Parent Post Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:254
+msgid "Remove Start Post Rel Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:255
+msgid "Remove Adjacent Rel Post Link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:256
+msgid "Remove Short link:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-default.php:257
+msgid "Remove WP Generator:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:263
+msgid "Tune your Site Performance"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:265
+msgid ""
+"If you are using compression modes for content, stylesheets and javascript, "
+"it depends on your PHP version. If not possible, it automatically defaults "
+"back to \"Joined and Minified only\"."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:266
+msgid "Optimize HTML Content"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:267
+msgid "Compress HTML Content:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:267
+#: admin/includes/xtreme-metaboxes-default.php:271
+#: admin/includes/xtreme-metaboxes-default.php:275
+#: lib/xtreme-optimizer.php:342
+msgid "No Compression (Standard)"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:267
+#: admin/includes/xtreme-metaboxes-default.php:271
+#: admin/includes/xtreme-metaboxes-default.php:275
+#: lib/xtreme-optimizer.php:343
+msgid "Implode and Minify only"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:267
+#: admin/includes/xtreme-metaboxes-default.php:271
+#: admin/includes/xtreme-metaboxes-default.php:275
+#: lib/xtreme-optimizer.php:344
+msgid "Deflate Compression"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:267
+#: admin/includes/xtreme-metaboxes-default.php:271
+#: admin/includes/xtreme-metaboxes-default.php:275
+#: lib/xtreme-optimizer.php:345
+msgid "GZip Compression"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:268
+msgid "HTML Compression Level:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:269
+msgid "Skip removing Whitespace Markup:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:270
+msgid "Optimize CSS (Stylesheet)"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:271
+msgid "Compress Xtreme Stylesheets:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:272
+msgid "Stylesheet Compression Level:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:273
+msgid "Use compression for Plugin Stylesheets too:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:274
+msgid "Optimize Javascripts"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:275
+msgid "Compress Xtreme Javascripts:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:276
+msgid "Javascript Compression Level:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:277
+msgid "Use compression for Plugin Scripts too:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:278
+msgid "Move all Javascripts to end of Body Tag:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:279
+msgid "Embed Small Javascripts:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:279
+#, php-format
+msgid "from \"%s\" only"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:280
+msgid "no, perform normal get request"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:281
+#: admin/includes/xtreme-metaboxes-default.php:282
+#: admin/includes/xtreme-metaboxes-default.php:283
+#: admin/includes/xtreme-metaboxes-default.php:284
+#: admin/includes/xtreme-metaboxes-default.php:285
+#: admin/includes/xtreme-metaboxes-default.php:286
+#: admin/includes/xtreme-metaboxes-default.php:287
+#, php-format
+msgid "yes, size less or equal %d Bytes"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:289
+msgid "Strip Microsoft IE conditional Javascripts:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:289
+msgid "other Browser will force stripping always"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:290
+msgid "no, leave conditionals unchanged at result"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:291
+msgid "yes, strip all conditionals at any IE Version"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:292
+#: admin/includes/xtreme-metaboxes-default.php:293
+#: admin/includes/xtreme-metaboxes-default.php:294
+#: admin/includes/xtreme-metaboxes-default.php:295
+#, php-format
+msgid "yes, all if IE is greater or equal %d.0%s"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:295
+msgid "recommended"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:297
+msgid "Replace WordPress Script Compression:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:298
+msgid "Optimize Gravatars"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:299
+msgid "Lazy Loading Gravatars:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:301
+msgid "Use Domain as Gravatar Proxy:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:305
+msgid "Additional Settings"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:308
+msgid ""
+"If you enable the \"Browser Caching\" Feature, your \".htaccess\" file will "
+"be modified with an additional leading section. Doing so all you resources "
+"like images, pdf, zip etc. will get and expiration date while served."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:309
+msgid "Enable Browser Caching:"
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:315
+msgid ""
+"We are sorry, but the \"Browser Caching\" Feature is currently only "
+"supported for Apache Server Installations."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:317
+msgid ""
+"You don't have a \".htaccess\" file at the moment. We assume, your are not "
+"using permalinks or your Server does not support it. Please provide such a "
+"file to get the \"Browser Caching\" feature enabled."
+msgstr ""
+
+#: admin/includes/xtreme-metaboxes-default.php:322
+msgid "Embed Framework Optimization Statistic:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-layout.php:13
+msgid "New Layout Settings"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-layout.php:14
+msgid "Name of the Layout:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-metaboxes-layout.php:47
+msgid "Apply these Template Files to the New Layout:"
+msgstr ""
+
+# @ xtreme-one
+#: admin/includes/xtreme-options.php:47 admin/includes/xtreme-options.php:78
+msgid "*missing*"
+msgstr ""
+
+#: includes/posttemplates/content-aside.php:2
+#: includes/posttemplates/html5-content-aside.php:4
+msgid "Aside"
+msgstr ""
+
+#: includes/posttemplates/content-audio.php:2
+#: includes/posttemplates/html5-content-audio.php:4
+msgid "Audio"
+msgstr ""
+
+#: includes/posttemplates/content-chat.php:2
+#: includes/posttemplates/html5-content-chat.php:4
+msgid "Chat"
+msgstr ""
+
+#: includes/posttemplates/content-gallery.php:2
+#: includes/posttemplates/html5-content-gallery.php:4
+msgid "Gallery"
+msgstr ""
+
+#: includes/posttemplates/content-gallery.php:15
+#: includes/posttemplates/html5-content-gallery.php:22
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/posttemplates/content-image.php:2
+#: includes/posttemplates/html5-content-image.php:4
+msgid "Image"
+msgstr ""
+
+#: includes/posttemplates/content-link.php:2
+#: includes/posttemplates/html5-content-link.php:4
+msgid "Link"
+msgstr ""
+
+#: includes/posttemplates/content-quote.php:2
+#: includes/posttemplates/html5-content-quote.php:4
+msgid "Quote"
+msgstr ""
+
+#: includes/posttemplates/content-status.php:2
+#: includes/posttemplates/html5-content-status.php:4
+msgid "Status"
+msgstr ""
+
+#: includes/posttemplates/content-video.php:2
+#: includes/posttemplates/html5-content-video.php:4
+msgid "Video"
+msgstr ""
+
+# @ xtreme-one
+#: includes/posttemplates/content.php:11
+#: includes/posttemplates/html5-content.php:19
+#: lib/xtreme-post-functions.php:331
+#: widgets/xtreme-accessible-category-tabber.php:191
+#: widgets/xtreme-carousel-media-slider.php:373
+#: widgets/xtreme-carousel-post-slider.php:171
+#: widgets/xtreme-column-posts.php:250
+#: widgets/xtreme-equal-heights-pages.php:196
+#: widgets/xtreme-equal-heights-posts.php:265
+#: widgets/xtreme-featurelist-posts.php:132
+#: widgets/xtreme-flex-media-slider.php:256
+#: widgets/xtreme-flex-post-slider.php:123 widgets/xtreme-grid-pages.php:190
+#: widgets/xtreme-grid-posts.php:276
+msgid "Read more..."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:23 lib/xtreme-comment-functions.php:56
+msgid "says:"
+msgstr ""
+
+# @ default
+#: lib/xtreme-comment-functions.php:26 lib/xtreme-comment-functions.php:60
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:26 lib/xtreme-comment-functions.php:57
+msgid "(Edit)"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:32 lib/xtreme-comment-functions.php:68
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:124
+msgid "Name"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:128
+msgid "Email"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-comment-functions.php:132
+msgid "Website"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-functions.php:22
+#, php-format
+msgid "requires at least WordPress %s!"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-functions.php:22
+msgid "Please upgrade your WordPress."
+msgstr ""
+
+#: lib/xtreme-image-functions.php:55
+msgid "Missing Attachment"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-javascripts.php:343
+#: widgets/xtreme-accessible-category-tabber.php:264
+#: widgets/xtreme-carousel-media-slider.php:210
+#: widgets/xtreme-carousel-post-slider.php:237
+#: widgets/xtreme-column-posts.php:334
+#: widgets/xtreme-equal-heights-pages.php:281
+#: widgets/xtreme-equal-heights-posts.php:352
+#: widgets/xtreme-flex-media-slider.php:165 widgets/xtreme-grid-pages.php:273
+#: widgets/xtreme-grid-posts.php:369
+msgid "Size:"
+msgstr ""
+
+#: lib/xtreme-javascripts.php:344
+msgid "Display Size:"
+msgstr ""
+
+#: lib/xtreme-javascripts.php:345
+msgid "Original (standard)"
+msgstr ""
+
+#: lib/xtreme-javascripts.php:346
+msgid "Selection Behavior:"
+msgstr ""
+
+#: lib/xtreme-javascripts.php:347
+msgid "checked as include"
+msgstr ""
+
+#: lib/xtreme-javascripts.php:348
+msgid "unchecked as exclude"
+msgstr ""
+
+# @ default
+# @ xtreme-one
+#: lib/xtreme-navigation.php:311
+msgid "Search for:"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:22
+msgid "Newer Posts <span>&rarr;</span>"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:23
+msgid "<span>&larr;</span> Older Posts"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:94 lib/xtreme-post-functions.php:121
+#: widgets/xtreme-accessible-category-tabber.php:121
+#: widgets/xtreme-column-posts.php:162
+#: widgets/xtreme-equal-heights-pages.php:414
+#: widgets/xtreme-equal-heights-posts.php:158
+#: widgets/xtreme-equal-heights-posts.php:534
+#: widgets/xtreme-grid-posts.php:161
+msgid "Read more about"
+msgstr ""
+
+# @ default
+#: lib/xtreme-post-functions.php:97
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:174
+msgid "About"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:191
+#, php-format
+msgid "Daily Archives for <span>%s</span>"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:193
+#, php-format
+msgid "Monthly Archives for <span>%s</span>"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:195
+#, php-format
+msgid "Yearly Archives for <span>%s</span>"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:197
+msgid "Archive"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:206
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:214
+#, php-format
+msgid "Category %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:222
+#, php-format
+msgid "All posts by <span>%s</span>"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:232 lib/xtreme-post-functions.php:245
+#, php-format
+msgid "Filed under: %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:233 lib/xtreme-post-functions.php:246
+#, php-format
+msgid "Tagged with: %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:261 lib/xtreme-post-functions.php:275
+msgid "no Comments"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:261 lib/xtreme-post-functions.php:275
+msgid "1 Comment"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-post-functions.php:261 lib/xtreme-post-functions.php:275
+msgid "% Comments"
+msgstr ""
+
+#: lib/xtreme-post-functions.php:261 lib/xtreme-post-functions.php:275
+msgid "off"
+msgstr ""
+
+#: lib/xtreme-post-functions.php:364
+msgid "Standard"
+msgstr ""
+
+#: lib/xtreme-subtitles.php:55 lib/xtreme-subtitles.php:64
+msgid "Subtitle:"
+msgstr ""
+
+#: lib/xtreme-subtitles.php:109
+#, php-format
+msgid "Protected: %s"
+msgstr ""
+
+#: lib/xtreme-subtitles.php:112
+#, php-format
+msgid "Private: %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:141
+msgid "Skip to primary navigation (Press Enter)."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:144
+msgid "Skip to secondary navigation (Press Enter)."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:146
+msgid "Skip to content (Press Enter)."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:525
+msgid "Skip to top"
+msgstr ""
+
+#: lib/xtreme-template-functions.php:687
+msgid "Image Header Area"
+msgstr ""
+
+#: lib/xtreme-template-functions.php:689
+msgid ""
+"Additional Header Widget Area to be used primary with \"Xtreme Media Flex "
+"Slider\" for Image Headers"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:732
+#, php-format
+msgid "The %s widget area %s"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:745
+#, php-format
+msgid "%s Column 1"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:747
+#, php-format
+msgid "%1s in your %2s."
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:747
+msgid "Column 1"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:757
+msgid "Widgetized Homepage"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:759
+msgid "Widget area on the Widgetized Homepage Template"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:779 lib/xtreme-template-functions.php:781
+#: lib/xtreme-template-functions.php:943
+msgid "Sidebar One"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:788 lib/xtreme-template-functions.php:790
+#: lib/xtreme-template-functions.php:951
+msgid "Sidebar Two"
+msgstr ""
+
+#: lib/xtreme-template-functions.php:797 lib/xtreme-template-functions.php:799
+msgid "Sidebar Three Top"
+msgstr ""
+
+#: lib/xtreme-template-functions.php:806 lib/xtreme-template-functions.php:808
+msgid "Sidebar Three Bottom Left"
+msgstr ""
+
+#: lib/xtreme-template-functions.php:815 lib/xtreme-template-functions.php:817
+msgid "Sidebar Three Bottom Right"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-template-functions.php:935
+msgid "Widget Area"
+msgstr ""
+
+#: lib/xtreme-theme-router.php:96
+msgid ""
+"There was an error during install/upgrade of <b>Xtreme One</b> Theme "
+"Framework. The default value definition file is missing or damaged. Please "
+"contact <a href=\"http://marketpress.com/product/xtreme/\">marketpress.com/"
+"product/xtreme</a> support!"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:102
+msgid "Front Page"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:104
+msgid "Blog Index"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:106
+msgid "Post"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:107
+msgid "Page"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:108
+msgid "Media"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:109
+msgid "Paging"
+msgstr ""
+
+# @ xtreme-one
+#: lib/xtreme-widget-manager.php:111 lib/xtreme-widget-manager.php:112
+#: widgets/xtreme-carousel-post-slider.php:200
+#: widgets/xtreme-coin-slider.php:150 widgets/xtreme-column-posts.php:288
+#: widgets/xtreme-featurelist-posts.php:178
+#: widgets/xtreme-flex-post-slider.php:143
+#: widgets/xtreme-jqfancy-slider.php:151
+msgid "Category"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:113 lib/xtreme-widget-manager.php:114
+msgid "Tag"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:115 lib/xtreme-widget-manager.php:116
+msgid "Author"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:117
+msgid "Date"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:118
+msgid "Day"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:119
+msgid "Month"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:120
+msgid "Year"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:121
+msgid "Time"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:123
+msgid "404 Error"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:124 lib/xtreme-widget-manager.php:125
+msgctxt "post format"
+msgid "Format"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:126
+msgid "Roles"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:127
+msgid "Capabilities"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:128 lib/xtreme-widget-manager.php:129
+msgid "Mobile Device"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:405 lib/xtreme-widget-manager.php:407
+#: lib/xtreme-widget-manager.php:484 lib/xtreme-widget-manager.php:486
+#, php-format
+msgid "Filter for: <strong>%s</strong>"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:405 lib/xtreme-widget-manager.php:484
+msgid "Archive Pages"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:407 lib/xtreme-widget-manager.php:486
+msgid "Single Pages"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:410 lib/xtreme-widget-manager.php:490
+#: widgets/xtreme-low-barrier.php:170 widgets/xtreme-low-barrier.php:172
+msgid "Remark:"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:410
+msgid ""
+"Switching off a template type here will suppress output of this widget at "
+"this template type in any case during page delivery."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:463
+msgid "exceptions denied by general setting"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:466
+msgid "Condition"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:468
+msgid "Exceptions"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:490
+msgid ""
+"Switching off a template type here will suppress output of this special "
+"widget at this template type during page delivery."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:594
+msgid "Remove all widgets"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:603
+msgid "Xtreme - System Extensions"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:613
+msgid "Arrangement in jQuery Tabs:"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:617 lib/xtreme-widget-manager.php:743
+#: lib/xtreme-widget-manager.php:751
+msgid "Remark"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:617
+msgid ""
+"If you set an identifier here, each widget with the same identifier will be "
+"wrapped automatically into an accessible tabber during page creation. The "
+"Title field is essential for proper working tabs."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:625
+msgid "Widget Filter Settings:"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:625
+msgid "Show"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:625
+msgid "Hide"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:675
+msgid "Duplicate Widget"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:676
+msgid "Empty this Sidebar..."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:677
+msgid "Empty this Sidebar?"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:678
+msgid "Assigned widgets will be permanently deleted and cannot be recovered."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:679
+msgid "Are you sure?"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:738
+msgid "Enforce this widget site wide"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:743
+msgid ""
+"If you enable this option at your main site as super admin, this widget will "
+"show up at any sub site at your multisite install using the same sidebar!"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:746
+msgid "Widget Display Context:"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:748
+msgid "Use content from Main Site"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:749
+msgid "Use content from Current Site"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:751
+msgid ""
+"If content comes from current site, it may produce unexpected results, "
+"because identifier of categories, tags and posts may be different."
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:754
+msgid "Display on child sites only"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:906
+msgid "Globally Assigned Widgets"
+msgstr ""
+
+#: lib/xtreme-widget-manager.php:928
+msgid ""
+"Global Widgets has been assigned by Multisite Domain Manager and will be "
+"displayed always."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:18
+msgid "Each Category separated in Tabs."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:20
+msgid "Xtreme Accessible Post Tabber"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:196
+#: widgets/xtreme-carousel-post-slider.php:193
+#: widgets/xtreme-coin-slider.php:138 widgets/xtreme-column-posts.php:269
+#: widgets/xtreme-equal-heights-posts.php:279
+#: widgets/xtreme-featurelist-posts.php:167
+#: widgets/xtreme-flex-post-slider.php:132 widgets/xtreme-grid-posts.php:289
+#: widgets/xtreme-jqfancy-slider.php:140
+msgid "Post Options"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:198
+#: widgets/xtreme-carousel-media-slider.php:205
+#: widgets/xtreme-carousel-post-slider.php:190
+#: widgets/xtreme-coin-slider.php:140
+#: widgets/xtreme-equal-heights-pages.php:218
+#: widgets/xtreme-equal-heights-posts.php:276
+#: widgets/xtreme-featurelist-posts.php:169
+#: widgets/xtreme-flex-media-slider.php:160
+#: widgets/xtreme-flex-post-slider.php:134 widgets/xtreme-grid-pages.php:211
+#: widgets/xtreme-grid-posts.php:286
+#: widgets/xtreme-jqfancy-mediaslider.php:143
+#: widgets/xtreme-jqfancy-slider.php:142 widgets/xtreme-last-tweets.php:65
+#: widgets/xtreme-low-barrier.php:125 widgets/xtreme-newsletter.php:65
+#: widgets/xtreme-social.php:90
+msgid "Title (or leave it blank):"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:202
+msgid "Tabs:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:219
+#, php-format
+msgid "Tab %d Category:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:234
+#: widgets/xtreme-carousel-post-slider.php:213
+#: widgets/xtreme-coin-slider.php:163 widgets/xtreme-column-posts.php:302
+#: widgets/xtreme-equal-heights-posts.php:322
+#: widgets/xtreme-featurelist-posts.php:191
+#: widgets/xtreme-flex-post-slider.php:156 widgets/xtreme-grid-posts.php:340
+#: widgets/xtreme-jqfancy-slider.php:164
+msgid "Post Date"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:235
+#: widgets/xtreme-carousel-post-slider.php:214
+#: widgets/xtreme-coin-slider.php:164 widgets/xtreme-column-posts.php:303
+#: widgets/xtreme-equal-heights-posts.php:323
+#: widgets/xtreme-featurelist-posts.php:192
+#: widgets/xtreme-flex-post-slider.php:157 widgets/xtreme-grid-posts.php:341
+#: widgets/xtreme-jqfancy-slider.php:165
+msgid "Post Title"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:236
+#: widgets/xtreme-carousel-post-slider.php:215
+#: widgets/xtreme-coin-slider.php:165 widgets/xtreme-column-posts.php:304
+#: widgets/xtreme-equal-heights-posts.php:324
+#: widgets/xtreme-featurelist-posts.php:193
+#: widgets/xtreme-flex-post-slider.php:158 widgets/xtreme-grid-posts.php:342
+#: widgets/xtreme-jqfancy-slider.php:166
+msgid "Post ID"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:237
+#: widgets/xtreme-carousel-post-slider.php:216
+#: widgets/xtreme-coin-slider.php:166 widgets/xtreme-column-posts.php:305
+#: widgets/xtreme-equal-heights-posts.php:325
+#: widgets/xtreme-featurelist-posts.php:194
+#: widgets/xtreme-flex-post-slider.php:159 widgets/xtreme-grid-posts.php:343
+#: widgets/xtreme-jqfancy-slider.php:167
+msgid "Random"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:238
+#: widgets/xtreme-carousel-post-slider.php:217
+#: widgets/xtreme-coin-slider.php:167 widgets/xtreme-column-posts.php:306
+#: widgets/xtreme-equal-heights-posts.php:326
+#: widgets/xtreme-featurelist-posts.php:195
+#: widgets/xtreme-flex-post-slider.php:160 widgets/xtreme-grid-posts.php:344
+#: widgets/xtreme-jqfancy-slider.php:168
+msgid "Comment Count"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:242
+#: widgets/xtreme-carousel-post-slider.php:220
+#: widgets/xtreme-coin-slider.php:170
+#: widgets/xtreme-equal-heights-posts.php:329
+#: widgets/xtreme-featurelist-posts.php:198
+#: widgets/xtreme-flex-post-slider.php:163 widgets/xtreme-grid-posts.php:347
+#: widgets/xtreme-jqfancy-slider.php:171
+msgid "Order By:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:254
+#: widgets/xtreme-carousel-post-slider.php:228
+#: widgets/xtreme-coin-slider.php:178 widgets/xtreme-column-posts.php:317
+#: widgets/xtreme-equal-heights-posts.php:337
+#: widgets/xtreme-featurelist-posts.php:206
+#: widgets/xtreme-flex-post-slider.php:171 widgets/xtreme-grid-posts.php:355
+#: widgets/xtreme-jqfancy-slider.php:179
+msgid "Post Offset:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:257
+#: widgets/xtreme-column-posts.php:327
+#: widgets/xtreme-equal-heights-pages.php:270
+#: widgets/xtreme-equal-heights-posts.php:341
+#: widgets/xtreme-grid-pages.php:262 widgets/xtreme-grid-posts.php:358
+msgid "Post Template Options"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:260
+#: widgets/xtreme-carousel-post-slider.php:233
+#: widgets/xtreme-column-posts.php:330
+#: widgets/xtreme-equal-heights-pages.php:273
+#: widgets/xtreme-equal-heights-posts.php:344
+#: widgets/xtreme-grid-pages.php:265 widgets/xtreme-grid-posts.php:361
+msgid "Show Featured Image"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:280
+#: widgets/xtreme-carousel-media-slider.php:226
+#: widgets/xtreme-carousel-post-slider.php:253
+#: widgets/xtreme-column-posts.php:350
+#: widgets/xtreme-equal-heights-pages.php:297
+#: widgets/xtreme-equal-heights-posts.php:368
+#: widgets/xtreme-grid-pages.php:289 widgets/xtreme-grid-posts.php:386
+msgid "Image Alignment:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:299
+#: widgets/xtreme-carousel-media-slider.php:235
+#: widgets/xtreme-carousel-post-slider.php:263
+#: widgets/xtreme-column-posts.php:369
+#: widgets/xtreme-equal-heights-pages.php:316
+#: widgets/xtreme-equal-heights-posts.php:387
+#: widgets/xtreme-flex-media-slider.php:176 widgets/xtreme-grid-pages.php:308
+#: widgets/xtreme-grid-posts.php:405
+msgid "Show Post Title"
+msgstr ""
+
+#: widgets/xtreme-accessible-category-tabber.php:304
+#: widgets/xtreme-column-posts.php:374
+#: widgets/xtreme-equal-heights-pages.php:321
+#: widgets/xtreme-equal-heights-posts.php:392
+#: widgets/xtreme-grid-pages.php:313 widgets/xtreme-grid-posts.php:410
+msgid "Post Title without Link"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:307
+#: widgets/xtreme-column-posts.php:261 widgets/xtreme-column-posts.php:377
+#: widgets/xtreme-column-posts.php:400
+#: widgets/xtreme-equal-heights-pages.php:324
+#: widgets/xtreme-equal-heights-pages.php:347
+#: widgets/xtreme-equal-heights-posts.php:395
+#: widgets/xtreme-equal-heights-posts.php:418
+#: widgets/xtreme-grid-pages.php:316 widgets/xtreme-grid-pages.php:339
+#: widgets/xtreme-grid-posts.php:413 widgets/xtreme-grid-posts.php:436
+msgid "Tag:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:326
+#: widgets/xtreme-carousel-post-slider.php:267
+#: widgets/xtreme-column-posts.php:419
+#: widgets/xtreme-equal-heights-posts.php:437
+#: widgets/xtreme-grid-posts.php:455
+msgid "Show Byline"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:341
+#: widgets/xtreme-column-posts.php:434
+#: widgets/xtreme-equal-heights-posts.php:452
+#: widgets/xtreme-grid-posts.php:470
+msgid "Show Content"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:345
+#: widgets/xtreme-coin-slider.php:195 widgets/xtreme-column-posts.php:438
+#: widgets/xtreme-equal-heights-pages.php:241
+#: widgets/xtreme-equal-heights-posts.php:460
+#: widgets/xtreme-flex-post-slider.php:187 widgets/xtreme-grid-pages.php:233
+#: widgets/xtreme-grid-posts.php:478 widgets/xtreme-jqfancy-slider.php:196
+msgid "Xtreme Excerpt"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:349
+#: widgets/xtreme-column-posts.php:443
+#: widgets/xtreme-equal-heights-pages.php:245
+#: widgets/xtreme-equal-heights-posts.php:464
+#: widgets/xtreme-grid-pages.php:237 widgets/xtreme-grid-posts.php:483
+msgid "Content Type:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:358
+#: widgets/xtreme-column-posts.php:452
+#: widgets/xtreme-equal-heights-posts.php:473
+#: widgets/xtreme-grid-posts.php:492
+msgid "Excerpt Length:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:359
+#: widgets/xtreme-carousel-post-slider.php:276
+#: widgets/xtreme-coin-slider.php:209 widgets/xtreme-column-posts.php:453
+#: widgets/xtreme-equal-heights-pages.php:255
+#: widgets/xtreme-equal-heights-posts.php:474
+#: widgets/xtreme-featurelist-posts.php:292
+#: widgets/xtreme-flex-post-slider.php:201 widgets/xtreme-grid-pages.php:247
+#: widgets/xtreme-grid-posts.php:493 widgets/xtreme-jqfancy-slider.php:210
+msgid "Words"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:360
+#: widgets/xtreme-carousel-post-slider.php:277
+#: widgets/xtreme-column-posts.php:284 widgets/xtreme-column-posts.php:454
+#: widgets/xtreme-equal-heights-pages.php:256
+#: widgets/xtreme-equal-heights-posts.php:475
+#: widgets/xtreme-grid-pages.php:248 widgets/xtreme-grid-posts.php:494
+#, php-format
+msgid "(at most %s)"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:363
+#: widgets/xtreme-column-posts.php:457
+#: widgets/xtreme-equal-heights-pages.php:263
+#: widgets/xtreme-equal-heights-posts.php:478
+#: widgets/xtreme-grid-pages.php:255 widgets/xtreme-grid-posts.php:497
+msgid "End of Excerpt:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:367
+#: widgets/xtreme-column-posts.php:461
+#: widgets/xtreme-equal-heights-pages.php:259
+#: widgets/xtreme-equal-heights-posts.php:482
+#: widgets/xtreme-featurelist-posts.php:253
+#: widgets/xtreme-flex-post-slider.php:209 widgets/xtreme-grid-pages.php:251
+#: widgets/xtreme-grid-posts.php:501
+msgid "Excerpt More Link Text:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:381
+#: widgets/xtreme-carousel-media-slider.php:311
+#: widgets/xtreme-carousel-post-slider.php:335
+#: widgets/xtreme-coin-slider.php:217 widgets/xtreme-flex-media-slider.php:204
+#: widgets/xtreme-flex-post-slider.php:213
+#: widgets/xtreme-jqfancy-mediaslider.php:192
+#: widgets/xtreme-jqfancy-slider.php:218
+msgid "Javascript Options"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:383
+#: widgets/xtreme-carousel-media-slider.php:322
+#: widgets/xtreme-carousel-post-slider.php:346
+msgid "FX:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:391
+msgid "FX Speed:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:393
+msgid "slow"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:394
+msgid "normal"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:395
+msgid "fast"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-accessible-category-tabber.php:400
+msgid "Use Syncheight"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:15
+msgid "A cool Media Carousel"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:16
+msgid "Xtreme Media Carousel"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-media-slider.php:89
+#: widgets/xtreme-carousel-media-slider.php:92
+#: widgets/xtreme-carousel-media-slider.php:95
+#: widgets/xtreme-carousel-media-slider.php:112
+#: widgets/xtreme-carousel-media-slider.php:115
+#: widgets/xtreme-carousel-post-slider.php:88
+#: widgets/xtreme-coin-slider.php:77 widgets/xtreme-featurelist-posts.php:85
+#: widgets/xtreme-flex-media-slider.php:67
+#: widgets/xtreme-flex-media-slider.php:70
+#: widgets/xtreme-flex-media-slider.php:73
+#: widgets/xtreme-flex-media-slider.php:91
+#: widgets/xtreme-flex-media-slider.php:94
+#: widgets/xtreme-flex-post-slider.php:74
+#: widgets/xtreme-jqfancy-mediaslider.php:78
+#: widgets/xtreme-jqfancy-mediaslider.php:81
+#: widgets/xtreme-jqfancy-mediaslider.php:84
+#: widgets/xtreme-jqfancy-slider.php:79 widgets/xtreme-jqfancy-slider.php:82
+msgid "Permanent Link to"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:208
+#: widgets/xtreme-flex-media-slider.php:163
+#: widgets/xtreme-jqfancy-mediaslider.php:146
+msgid "Image Options"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:240
+#: widgets/xtreme-carousel-post-slider.php:271
+#: widgets/xtreme-flex-media-slider.php:181
+msgid "Show Xtreme Excerpt"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:242
+#: widgets/xtreme-flex-media-slider.php:183
+#: widgets/xtreme-jqfancy-mediaslider.php:171
+msgid "Mediathek Collection:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:246
+#: widgets/xtreme-flex-media-slider.php:187
+#: widgets/xtreme-jqfancy-mediaslider.php:175
+msgid "- empty -"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:259
+#: widgets/xtreme-flex-media-slider.php:199
+#: widgets/xtreme-jqfancy-mediaslider.php:187
+msgid "Add Images"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:261
+#: widgets/xtreme-flex-media-slider.php:201
+#: widgets/xtreme-jqfancy-mediaslider.php:189
+msgid "Remove All Images"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:262
+#: widgets/xtreme-flex-media-slider.php:202
+#: widgets/xtreme-jqfancy-mediaslider.php:190
+msgid ""
+"Select your Slider Image content, modify Texts and linked URL's. Afterward "
+"sort it by drag 'n drop as usual."
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:264
+#: widgets/xtreme-carousel-post-slider.php:288
+msgid "Carousel Options"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:266
+#: widgets/xtreme-carousel-post-slider.php:290
+msgid "Items visible inside the carousel:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:270
+#: widgets/xtreme-carousel-post-slider.php:294
+msgid "How many items should be scrolled at a time:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:274
+#: widgets/xtreme-carousel-media-slider.php:283
+#: widgets/xtreme-carousel-post-slider.php:298
+#: widgets/xtreme-carousel-post-slider.php:307
+msgid "Item Width:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:276
+#: widgets/xtreme-carousel-media-slider.php:290
+#: widgets/xtreme-carousel-post-slider.php:300
+#: widgets/xtreme-carousel-post-slider.php:314
+msgid "auto"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:277
+#: widgets/xtreme-carousel-media-slider.php:291
+#: widgets/xtreme-carousel-post-slider.php:301
+#: widgets/xtreme-carousel-post-slider.php:315
+msgid "Enter a value"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:281
+#: widgets/xtreme-carousel-post-slider.php:305
+msgid "Enter the values for the Item Width:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:288
+#: widgets/xtreme-carousel-media-slider.php:297
+#: widgets/xtreme-carousel-post-slider.php:312
+#: widgets/xtreme-carousel-post-slider.php:321
+msgid "Item Height:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:295
+#: widgets/xtreme-carousel-post-slider.php:319
+msgid "Enter the values for the Item Height:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:302
+#: widgets/xtreme-carousel-post-slider.php:326
+msgid "Item Margin:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:308
+#: widgets/xtreme-carousel-post-slider.php:332
+msgid "up"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:309
+#: widgets/xtreme-carousel-post-slider.php:333
+msgid "down"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-media-slider.php:313
+#: widgets/xtreme-carousel-post-slider.php:337
+#: widgets/xtreme-flex-media-slider.php:217
+#: widgets/xtreme-flex-post-slider.php:226
+#: widgets/xtreme-jqfancy-mediaslider.php:249
+#: widgets/xtreme-jqfancy-slider.php:275
+msgid "Direction:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:331
+#: widgets/xtreme-carousel-post-slider.php:355
+#: widgets/xtreme-flex-media-slider.php:206
+#: widgets/xtreme-flex-post-slider.php:215
+msgid "Animation:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:339
+#: widgets/xtreme-carousel-post-slider.php:363
+msgid "Duration:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-media-slider.php:341
+#: widgets/xtreme-carousel-media-slider.php:355
+#: widgets/xtreme-carousel-post-slider.php:365
+#: widgets/xtreme-carousel-post-slider.php:379
+#: widgets/xtreme-coin-slider.php:240 widgets/xtreme-coin-slider.php:245
+#: widgets/xtreme-coin-slider.php:250 widgets/xtreme-coin-slider.php:255
+#: widgets/xtreme-coin-slider.php:260 widgets/xtreme-coin-slider.php:265
+#: widgets/xtreme-flex-media-slider.php:230
+#: widgets/xtreme-flex-media-slider.php:235
+#: widgets/xtreme-flex-post-slider.php:239
+#: widgets/xtreme-flex-post-slider.php:244
+#: widgets/xtreme-jqfancy-mediaslider.php:215
+#: widgets/xtreme-jqfancy-mediaslider.php:220
+#: widgets/xtreme-jqfancy-mediaslider.php:225
+#: widgets/xtreme-jqfancy-mediaslider.php:230
+#: widgets/xtreme-jqfancy-mediaslider.php:235
+#: widgets/xtreme-jqfancy-slider.php:241 widgets/xtreme-jqfancy-slider.php:246
+#: widgets/xtreme-jqfancy-slider.php:251 widgets/xtreme-jqfancy-slider.php:256
+#: widgets/xtreme-jqfancy-slider.php:261
+#, php-format
+msgid "(between %1s and %2s)"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:344
+#: widgets/xtreme-carousel-post-slider.php:368
+msgid "Pause on Hover:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:348
+#: widgets/xtreme-carousel-post-slider.php:372
+msgid "Auto Play:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:353
+#: widgets/xtreme-carousel-post-slider.php:377
+msgid "Delay before Start:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:359
+#: widgets/xtreme-carousel-post-slider.php:383
+msgid "Show Prev/Next:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:363
+#: widgets/xtreme-carousel-post-slider.php:387
+msgid "Show Pagination:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:385
+#: widgets/xtreme-flex-media-slider.php:268
+#: widgets/xtreme-jqfancy-mediaslider.php:285
+msgid "Type"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:386
+#: widgets/xtreme-flex-media-slider.php:269
+#: widgets/xtreme-jqfancy-mediaslider.php:286
+msgid "Remove Image"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:390
+#: widgets/xtreme-flex-media-slider.php:273
+#: widgets/xtreme-jqfancy-mediaslider.php:290
+msgid "Caption"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-media-slider.php:394
+#: widgets/xtreme-flex-media-slider.php:277
+#: widgets/xtreme-jqfancy-mediaslider.php:294
+msgid "Description"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:399
+#: widgets/xtreme-carousel-post-slider.php:284
+#: widgets/xtreme-flex-media-slider.php:282
+msgid "Excerpt more link text:"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:404
+#: widgets/xtreme-flex-media-slider.php:287
+#: widgets/xtreme-jqfancy-mediaslider.php:298
+msgid "Image Link"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:408
+#: widgets/xtreme-flex-media-slider.php:291
+#: widgets/xtreme-jqfancy-mediaslider.php:302
+msgid "Related Post or Page"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:409
+#: widgets/xtreme-flex-media-slider.php:292
+#: widgets/xtreme-jqfancy-mediaslider.php:303
+msgid "Image Attachment Page"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:410
+#: widgets/xtreme-flex-media-slider.php:293
+#: widgets/xtreme-jqfancy-mediaslider.php:304
+msgid "Custom defined URL"
+msgstr ""
+
+#: widgets/xtreme-carousel-media-slider.php:422
+#: widgets/xtreme-flex-media-slider.php:305
+#: widgets/xtreme-jqfancy-mediaslider.php:316
+msgid "Link URL"
+msgstr ""
+
+#: widgets/xtreme-carousel-post-slider.php:15
+msgid "A carousel for your posts"
+msgstr ""
+
+#: widgets/xtreme-carousel-post-slider.php:16
+msgid "Xtreme Post Carousel"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-post-slider.php:195
+#: widgets/xtreme-coin-slider.php:144 widgets/xtreme-featurelist-posts.php:173
+#: widgets/xtreme-flex-post-slider.php:138
+#: widgets/xtreme-jqfancy-slider.php:146
+msgid "Number of Posts:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-post-slider.php:197
+#: widgets/xtreme-coin-slider.php:146 widgets/xtreme-coin-slider.php:210
+#: widgets/xtreme-featurelist-posts.php:175
+#: widgets/xtreme-featurelist-posts.php:293
+#: widgets/xtreme-flex-post-slider.php:140
+#: widgets/xtreme-flex-post-slider.php:202
+#: widgets/xtreme-jqfancy-slider.php:148 widgets/xtreme-jqfancy-slider.php:211
+#, php-format
+msgid "(at most %d)"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-post-slider.php:207
+#: widgets/xtreme-coin-slider.php:157 widgets/xtreme-column-posts.php:114
+#: widgets/xtreme-column-posts.php:295
+#: widgets/xtreme-equal-heights-posts.php:316
+#: widgets/xtreme-featurelist-posts.php:185
+#: widgets/xtreme-flex-post-slider.php:150 widgets/xtreme-grid-posts.php:334
+#: widgets/xtreme-jqfancy-slider.php:158
+msgid "All Categories"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-post-slider.php:275
+#: widgets/xtreme-coin-slider.php:208 widgets/xtreme-featurelist-posts.php:291
+#: widgets/xtreme-flex-post-slider.php:200
+#: widgets/xtreme-jqfancy-slider.php:209
+msgid "Excerpt length:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-carousel-post-slider.php:280
+#: widgets/xtreme-coin-slider.php:213 widgets/xtreme-featurelist-posts.php:296
+#: widgets/xtreme-flex-post-slider.php:205
+#: widgets/xtreme-jqfancy-slider.php:214
+msgid "Excerpt more Phrase:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:15 widgets/xtreme-featurelist-posts.php:15
+msgid "A cool Slider"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:16
+msgid "Xtreme Coin Slider"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:183 widgets/xtreme-featurelist-posts.php:234
+#: widgets/xtreme-flex-post-slider.php:175
+#: widgets/xtreme-jqfancy-mediaslider.php:148
+#: widgets/xtreme-jqfancy-slider.php:184
+msgid "Image Size:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:193 widgets/xtreme-flex-post-slider.php:185
+#: widgets/xtreme-jqfancy-slider.php:194
+msgid "Nothing"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:194 widgets/xtreme-featurelist-posts.php:278
+#: widgets/xtreme-flex-post-slider.php:186
+#: widgets/xtreme-jqfancy-slider.php:195
+msgid "Title only"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:196 widgets/xtreme-featurelist-posts.php:279
+#: widgets/xtreme-flex-post-slider.php:188
+#: widgets/xtreme-jqfancy-slider.php:197
+msgid "Title and Xtreme Excerpt"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:199 widgets/xtreme-flex-post-slider.php:191
+#: widgets/xtreme-jqfancy-slider.php:200
+msgid "Content type:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:219
+#: widgets/xtreme-jqfancy-mediaslider.php:194
+#: widgets/xtreme-jqfancy-slider.php:220
+msgid "Effect:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:230
+#: widgets/xtreme-jqfancy-mediaslider.php:205
+#: widgets/xtreme-jqfancy-slider.php:231
+msgid "Slider width:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:231 widgets/xtreme-coin-slider.php:235
+#: widgets/xtreme-featurelist-posts.php:246
+#: widgets/xtreme-featurelist-posts.php:250
+#: widgets/xtreme-jqfancy-mediaslider.php:206
+#: widgets/xtreme-jqfancy-mediaslider.php:210
+#: widgets/xtreme-jqfancy-slider.php:232 widgets/xtreme-jqfancy-slider.php:236
+msgid "px"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:234
+#: widgets/xtreme-jqfancy-mediaslider.php:209
+#: widgets/xtreme-jqfancy-slider.php:235
+msgid "Slider height:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:238
+msgid "squares per width:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:243
+msgid "squares per height:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:248
+#: widgets/xtreme-jqfancy-mediaslider.php:218
+#: widgets/xtreme-jqfancy-slider.php:244
+msgid "Delay between images:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:253
+#: widgets/xtreme-jqfancy-mediaslider.php:223
+#: widgets/xtreme-jqfancy-slider.php:249
+msgid "Delay between strips:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:258
+#: widgets/xtreme-jqfancy-mediaslider.php:228
+#: widgets/xtreme-jqfancy-slider.php:254
+msgid "Caption opacity:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:263
+#: widgets/xtreme-jqfancy-mediaslider.php:233
+#: widgets/xtreme-jqfancy-slider.php:259
+msgid "Title speed:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:269
+#: widgets/xtreme-jqfancy-mediaslider.php:260
+#: widgets/xtreme-jqfancy-slider.php:286
+msgid "Show Navigation:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-coin-slider.php:273
+msgid "Pause on hover:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:18
+msgid ""
+"This Widget will display your posts of selected categories in x columns and "
+"x rows."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:20
+msgid "Xtreme Column Posts"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:178
+msgid "No Posts so far."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:257
+msgid "Category title above each column"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:271
+#: widgets/xtreme-equal-heights-pages.php:222
+#: widgets/xtreme-equal-heights-posts.php:281 widgets/xtreme-gid-text.php:202
+#: widgets/xtreme-grid-pages.php:215 widgets/xtreme-grid-posts.php:291
+msgid "Columns:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:282
+msgid "Number of Posts in each column:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:309
+msgid "Order By"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:321
+msgid "Sort Order:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:323
+msgid "Ascending"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:324
+msgid "Descending"
+msgstr ""
+
+#: widgets/xtreme-column-posts.php:396
+#: widgets/xtreme-equal-heights-pages.php:343
+#: widgets/xtreme-equal-heights-posts.php:414
+#: widgets/xtreme-grid-pages.php:335 widgets/xtreme-grid-posts.php:432
+msgid "Show Subtitle"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-column-posts.php:440
+#: widgets/xtreme-equal-heights-pages.php:242
+#: widgets/xtreme-grid-pages.php:234 widgets/xtreme-grid-posts.php:480
+msgid "Full Content"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:18
+msgid "This widget will display your pages in x columns."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:20
+msgid "Xtreme Equal Heights Pages"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:235
+#: widgets/xtreme-grid-pages.php:227
+#, php-format
+msgid "Column %d"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:237
+#: widgets/xtreme-grid-pages.php:229
+msgid "Page:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:254
+#: widgets/xtreme-grid-pages.php:246
+msgid "Excerpt Lenght:"
+msgstr ""
+
+#: widgets/xtreme-equal-heights-pages.php:278
+#: widgets/xtreme-equal-heights-posts.php:349
+#: widgets/xtreme-grid-pages.php:270 widgets/xtreme-grid-posts.php:366
+msgid "Show as Background Image"
+msgstr ""
+
+#: widgets/xtreme-equal-heights-pages.php:367
+#: widgets/xtreme-equal-heights-posts.php:457
+#: widgets/xtreme-grid-pages.php:359 widgets/xtreme-grid-posts.php:475
+msgid "Wrap Content in a Div"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-pages.php:379
+#: widgets/xtreme-equal-heights-posts.php:497
+msgid "Use bottom Box"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-posts.php:18
+msgid ""
+"This widget will display your posts in x columns and x rows. The boxes have "
+"always the equal height."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-posts.php:20
+msgid "Xtreme Equal Heights Posts"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-posts.php:292 widgets/xtreme-gid-text.php:192
+#: widgets/xtreme-grid-posts.php:302
+msgid "Rows:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-posts.php:306
+#: widgets/xtreme-grid-posts.php:324
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-equal-heights-posts.php:309
+#: widgets/xtreme-grid-posts.php:327
+msgid "Category:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:17
+msgid "Xtreme Feature List Posts"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:210
+msgid "Slider Options"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:212
+msgid "Slider Height:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:216
+msgid "Transition Interval:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:219
+msgid "sec"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:223
+msgid "Content Side Options"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:225
+msgid "Content width:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:243
+msgid "Read more Settings"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:245
+msgid "Distance bottom:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:249
+msgid "Distance side:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:256
+msgid "List Side"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:258
+msgid "List Width:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:267
+msgid "List Position:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:275
+msgid "Auto Calculate Anchor Height"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:302
+msgid "Show Thumbnail"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-featurelist-posts.php:306
+msgid "Thumbnail Width:"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:15
+msgid "A responsive Slider for your Media"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:16
+msgid "Xtreme Media FlexSlider"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:35
+#: widgets/xtreme-flex-post-slider.php:33
+msgid "previous"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:36
+#: widgets/xtreme-flex-post-slider.php:34
+msgid "next"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:228
+#: widgets/xtreme-flex-post-slider.php:237
+msgid "Slideshow Speed:"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:233
+#: widgets/xtreme-flex-post-slider.php:242
+msgid "Animation Duration:"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:238
+#: widgets/xtreme-flex-post-slider.php:247
+msgid "Randomize Slices:"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:242
+#: widgets/xtreme-flex-post-slider.php:251
+msgid "Show DirectionNav:"
+msgstr ""
+
+#: widgets/xtreme-flex-media-slider.php:246
+#: widgets/xtreme-flex-post-slider.php:255
+msgid "Show ControlNav:"
+msgstr ""
+
+#: widgets/xtreme-flex-post-slider.php:15
+msgid "A responsive Slider for your Posts"
+msgstr ""
+
+#: widgets/xtreme-flex-post-slider.php:16
+msgid "Xtreme Post FlexSlider"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:16
+msgid "Arbitrary text or HTML Grid Widget"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:18
+msgid "Xtreme Grid Text"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:188
+msgid "Title:"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:212
+msgid "Distribution:"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:234
+msgid "Description:"
+msgstr ""
+
+#: widgets/xtreme-gid-text.php:235
+msgid "Automatically add paragraphs"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-grid-pages.php:18
+msgid "This Widget will display your pages in x columns."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-grid-pages.php:20
+msgid "Xtreme Grid Pages"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-grid-posts.php:18
+msgid "This Widget will display your posts in x columns and x rows."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-grid-posts.php:20
+msgid "Xtreme Grid Posts"
+msgstr ""
+
+#: widgets/xtreme-grid-posts.php:313
+msgid "Number:"
+msgstr ""
+
+#: widgets/xtreme-grid-posts.php:316
+msgid "Posts"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:16
+msgid "A cool Media Slider"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:17
+msgid "Xtreme jqFancy Media Slider"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:158
+msgid "Without any"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:159
+msgid "Caption only"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:160
+msgid "Description only"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:161
+msgid "Caption and Description"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:164
+msgid "Slider Inscriptions:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-jqfancy-mediaslider.php:213
+#: widgets/xtreme-jqfancy-slider.php:239
+msgid "Strips:"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-mediaslider.php:264
+#: widgets/xtreme-jqfancy-slider.php:290
+msgid "Disable Links:"
+msgstr ""
+
+#: widgets/xtreme-jqfancy-slider.php:15
+msgid "A cool Slider for your Posts"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-jqfancy-slider.php:16
+msgid "Xtreme jqFancy Slider"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:15
+msgid "Your last Tweets"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:16
+msgid "Xtreme Last Tweets"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:69
+msgid "Number of Tweets to show:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:73
+msgid "Twitter Username:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:78
+msgid "Show Follower Count"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:82
+msgid "Show Username"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:86
+msgid "Show Avatar"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-last-tweets.php:90
+msgid "Avatar Size:"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:26
+msgid "Low Barrier Font and Constract Selectors"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:27
+msgid "Xtreme Low Barrier"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:47
+msgid "Fontsize:"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:48
+msgid "Normal Fontsize"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:49
+msgid "Medium Fontsize"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:50
+msgid "Maximum Fontsize"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:62
+msgid "Contrast:"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:63
+msgid "Normal Contrast"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:64
+msgid "High Contrast"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:128
+msgid "Font Switcher Options"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:131
+msgid "Enable Fontsize Selector"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:136
+msgid "Show Fontsize Label"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:138
+msgid ""
+"Your Framework defined <em>body fontsize</em> will be enlarged to the given "
+"percentage values, if the visitor clicks one of this 2 options."
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:140
+msgid "Font Size (medium):"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:144
+msgid "Font Size (maximum):"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:148
+msgid "Contrast Switcher Options"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:151
+msgid "Enable Contrast Selector"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:156
+msgid "Show Contrast Label"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:159
+msgid "Appearance Options"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:162
+msgid "Alignment Horizontal"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:166
+msgid "Flip Selector Order"
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:170
+msgid ""
+"You are currently using a \"low-barrier.css\" file at your current child "
+"theme css folder. All appearance changes requested by selectors will depend "
+"at the CSS definitions there."
+msgstr ""
+
+#: widgets/xtreme-low-barrier.php:172
+msgid ""
+"You can also define more complex style switching, if you create a \"low-"
+"barrier.css\" file at your current child theme css folder beside the \"theme."
+"css\" file. It will be added automatically and will replace the given "
+"automatic defaults."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:15
+msgid "A Feedburner email subscribe form"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:16
+msgid "Xtreme Newsletter"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:61
+msgid "Enter your email..."
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:62
+msgid "Subscribe!"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:69
+msgid "Additional text before input field:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:73
+msgid "Google/Feedburner ID:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:77
+msgid "Input Text:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-newsletter.php:81
+msgid "Button Text:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:15
+msgid "Your social links"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:16
+msgid "Xtreme Social Links"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:22 widgets/xtreme-social.php:76
+msgid "Entry RSS"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:23 widgets/xtreme-social.php:78
+msgid "Comments RSS"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:24 widgets/xtreme-social.php:80
+msgid "Follow me"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:25 widgets/xtreme-social.php:83
+msgid "Facebook"
+msgstr ""
+
+#: widgets/xtreme-social.php:26
+msgid "Googleplus"
+msgstr ""
+
+#: widgets/xtreme-social.php:86
+msgid "Google+"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:94
+msgid "Show Entry RSS"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:96
+msgid "Link text for entry feed:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:100
+msgid "Show Comments RSS"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:102
+msgid "Link text for comments feed:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:106
+msgid "Show Twitter"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:108
+msgid "Twitter User Name:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:110
+msgid "Link Text for Twitter Link:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:114
+msgid "Show Facebook"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:116
+msgid "Facebook User Name:"
+msgstr ""
+
+# @ xtreme-one
+#: widgets/xtreme-social.php:118
+msgid "Link Text for Facebook Link:"
+msgstr ""
+
+#: widgets/xtreme-social.php:122
+msgid "Show Google+"
+msgstr ""
+
+#: widgets/xtreme-social.php:124
+msgid "Google+ Profil:"
+msgstr ""
+
+#: widgets/xtreme-social.php:126
+msgid "Link Text for Google+ Link:"
+msgstr ""

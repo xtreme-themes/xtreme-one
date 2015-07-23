@@ -1,0 +1,128 @@
+html .mceContentBody { max-width: 650px }
+* {
+	font-size: 12px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	line-height: 1.5em;
+	color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Calibri, 'Trebuchet MS', Tahoma, Helvetica, Verdana, sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 0.6em;
+	margin-bottom: 0.6em;
+}
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+	margin-bottom: 0.75em;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+h4 {
+	font-size: 1.334em;
+	line-height: 1.125em;
+	margin-bottom: 1.125em;
+}
+h5, h6 {
+	font-size: 1.1667em;
+	line-height: 1.286em;
+	margin-bottom: 1.286em;
+}
+p, ul, ol, dl, dd, dt, li, blockquote, pre {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+ul ul, ol ul, ol ol, li { margin-bottom: 0 }
+ul, ol, dl { margin-left: 20px }
+ul { list-style-type: disc }
+ul ul { list-style-type: circle }
+ol { list-style-type: decimal }
+ol ol { list-style-type: lower-latin }
+li { margin-left: 20px }
+dt { font-weight:bold }
+dd { margin:0 0 1.5em 20px }
+blockquote, blockquote p, cite, q {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+blockquote { margin-left: 20px; margin-right: 20px; color: #666 }
+pre, code, kbd, tt, samp, var { font-size: 1em }
+pre, code { color: #000 }
+kbd, samp, var, tt { color: #666; font-weight: bold }
+var, dfn { font-style:italic }
+acronym, abbr {
+	border-bottom: 1px #aaa dotted;
+	font-variant: small-caps;
+	letter-spacing: .07em;
+}
+sub, sup { font-size: 0.9166em; line-height: 0 }
+hr {
+	color: #fff;
+	background: transparent;
+	margin: 0 0 1.5em 0;
+	padding: 0 0 1.5em 0;
+	border: 0;
+	border-bottom: 1px #eee solid
+}
+a { color: #4d87c7; background: transparent; text-decoration: none }
+a:visited { color: #036 }
+a:focus { text-decoration: none; color: #000 }
+a:hover, a:active { color: #182e7a; text-decoration: none }
+.info { background: #f8f8f8; color: #666; padding: 10px; margin-bottom: 1.5em; font-size: 0.9167em }
+.warning { background: #fee; color: #400; border: 1px #844 solid; padding: 10px; margin-bottom: 1.5em }
+.alignleft {
+	display: inline;
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 20px;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 20px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 1em;
+	text-align: center;
+}
+.alignnone {
+	margin: 0 0 1em;
+}
+
+.ym-contain-dt {
+	overflow: hidden;
+	display: table;
+}
+.ym-full { width: 100% }
+.fixed { table-layout: fixed }
+table { width: auto; border-collapse: collapse; margin-bottom: 1.5em; border-top: 1px #888 solid; border-bottom: 1px #888 solid }
+table caption { text-transform: uppercase }
+th,td { padding: 0.5em }
+thead th { color: #000; border-bottom: 1px #800 solid }
+tbody th { background: #e0e0e0; color: #333 }
+tbody th { border-bottom: 1px solid #fff; text-align: left }
+tbody td { border-bottom: 1px solid #eee }
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin-bottom: 1.5em;
+	padding: 0;
+}
+.wp-caption-text { font-size: 0.9167em }

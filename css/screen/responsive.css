@@ -1,0 +1,241 @@
+@media screen and (max-width: 760px) {
+	/* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-1 */
+	.linearize-level-1, .linearize-level-1 > [class*="ym-c"], .linearize-level-1 > [class*="ym-g"] {
+		/* linearization for grids and columns module */
+		display: block !important;
+		float: none !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+	.linearize-level-1 > [class*="ym-c"] > [class*="ym-cbox"], .linearize-level-1 > [class*="ym-g"] > [class*="ym-gbox"] {
+		/* reset defined gutter values */
+		margin: 0;
+		padding: 0;
+		/* optional for containing floats */
+		overflow: hidden;
+	}
+	/* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-2 */
+	.linearize-level-2, .linearize-level-2 > [class*="ym-c"], .linearize-level-2 > [class*="ym-g"] {
+		/* linearization for grids and columns module */
+		display: block;
+		float: none;
+		padding: 0;
+		margin: 0;
+		width: auto !important;
+	}
+	.linearize-level-2 > [class*="ym-c"] > [class*="ym-cbox"], .linearize-level-2 > [class*="ym-g"] > [class*="ym-gbox"] {
+		/* reset defined gutter values */
+		margin: 0;
+		padding: 0;
+		/* optional for containing floats */
+		overflow: hidden;
+	}
+
+	nav .ym-hlist ul {
+		padding-right: 10px;
+	}
+
+	.ym-searchform {
+		display: block;
+		float: none;
+		width: auto;
+		padding-right: 10px;
+		text-align: right;
+	}
+
+	.ym-searchform input[type="search"] {
+		width: 14%;
+	}
+
+	/************************* */
+	/* xtreme fixes */
+
+	/* remove the columns */
+	.ym-col1,
+	.ym-col2,
+	.ym-col3 {
+		display: block !important;
+		float: none !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+
+	/* resetting the xf-container width to 100% */
+	.xf-container { min-width:100% !important; }
+
+	/* resetting the img width and height to make them responsive */
+	img { max-width:100% !important; height:auto; }
+
+	/* resetting the width of the wrapper */
+	.ym-wrapper {
+		width: 100% !important;
+		min-width: 100% !important;
+	}
+
+	/* resetting the headline */
+	.logo #header h1 a,
+	.logo .blogtitle a,
+	.logo .blogtitle span {
+		width:100% !important;
+	}
+
+	/* removing the background from navigation */
+	#primarynav,
+	#secondarynav,
+	.ym-hlist {
+		background:none;
+		background:transparent;
+		padding:0 !important;
+		float:none !important;
+		margin:10px 0 !important;
+	}
+
+	/* removing the floating from nav-items */
+	#primarynav ul li,
+	#secondarynav ul li{
+		display:block !important;
+		float: none !important;
+		width:100% !important;
+	}
+
+	/* removing floats from navs */
+	.ym-hlist ul {
+		float:none !important;
+	}
+
+	/* showing the submenus */
+	.sub-menu {
+		position: static !important;
+		width: 100% !important;
+		display: block !important;
+		visibility: visible !important;
+		overflow:hidden;
+	}
+
+	.sub-menu li {
+		padding-left: 15px !important;
+	}
+
+	/* removing the dropdown button for navs */
+	.sf-sub-indicator {
+		display:none !important;
+	}
+
+	/* slider */
+	.jqfancy_wrapper,
+	.coin_wrapper {
+		width:100% !important;
+	}
+	.ft-buttons {
+		width:100% !important;
+		text-align:center !important;
+	}
+
+	/* removing the read more on equalized columns.. */
+	.xtreme_equalize_pages .read-more, .xtreme_equalize_grid_posts .read-more { display:none !important;}
+
+	/* adding some margin-bottom to the teaser */
+	#teaser {
+		margin-bottom:25px !important;
+	}
+
+	/* adding some margin-bottom to the main */
+	#main {
+		padding-top:25px !important;
+	}
+
+	/* linearize form elements */
+	.linearize-form label {
+		float: none;
+	}
+	.linearize-form .ym-label,
+	.linearize-form .ym-message,
+	.linearize-form input,
+	.linearize-form button,
+	.linearize-form textarea,
+	.linearize-form select {
+		display: block;
+		float: none;
+		position: static;
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	/* linearize grids */
+	.linearize-form .ym-fbox-wrap,
+	.linearize-form .ym-fbox-wrap [class*="ym-g"] {
+		display: block;
+		float: none;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	/* restore special form elements */
+	.linearize-form input[type="checkbox"],
+	.linearize-form input[type="radio"],
+	.linearize-form input[type="image"] {
+		margin-left: 0 !important;
+		width: auto !important;
+		display: inline;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	.ym-wbox {
+		padding: 0;
+	}
+
+	header,#header {
+		padding: 0.75em 10px;
+	}
+	header h1,#header h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+		margin: 0;
+	}
+
+	footer,
+	#footer,
+	main,
+	#main,
+	.ym-searchform,
+	nav .ym-hlist ul,
+	#primarynav .ym-hlist ul {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-2 */
+	body .linearize-level-2, body .linearize-level-2 > [class*="ym-c"], body .linearize-level-2 > [class*="ym-g"] {
+		/* linearization for grids and columns module */
+		display: block !important;
+		float: none !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+	body .linearize-level-2 > [class*="ym-c"] > [class*="ym-cbox"], body .linearize-level-2 > [class*="ym-g"] > [class*="ym-gbox"] {
+		/* reset defined gutter values */
+		margin: 0;
+		padding: 0;
+		/* optional for containing floats */
+		overflow: hidden;
+	}
+
+	.ym-searchform,
+	nav .ym-hlist ul,
+	#primarynav .ym-hlist ul,
+	nav .ym-hlist li,
+	#primarynav .ym-hlist li {
+		display: block;
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+
+	.ym-searchform input[type="search"] {
+		width: 75%;
+	}
+
+}

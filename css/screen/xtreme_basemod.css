@@ -1,0 +1,46 @@
+@media all {
+  .ym-ie-clearing { display: none; }
+
+  /* (en) reset font size for all elements to standard (16 Pixel) */
+  /* (de) Alle Schriftgrößen auf Standardgröße (16 Pixel) zurücksetzen */
+  html * { font-size: 100.01%; }
+
+  /**
+  * (en) reset monospaced elements to font size 16px in all browsers
+  * (de) Schriftgröße von monospaced Elemente in allen Browsern auf 16 Pixel setzen
+  *
+  * @see: http://webkit.org/blog/67/strange-medium/
+  */
+  textarea, pre, code, kbd, samp, var, tt {
+    font-family: Consolas, "Lucida Console", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier;
+  }
+
+  body {
+    font-size: 75%;
+  }
+
+}
+@media screen, projection {
+  body {
+    overflow-y: scroll;
+    text-align: center;
+  }
+  /* Layout:Width, Background, Border | Layout:Breite, Hintergrund, Rahmen */
+  .ym-wrapper { text-align: left; margin: 0 auto; max-width: 80em;  }
+  .xf-container { min-width: 740px; }
+
+  #header .ym-col1{ float: right; width: 25%}
+  #header .ym-col3 { float: none; margin-right: 25%; margin-left: 0}
+  #siteinfo .ym-col1{ float: right; width: 25%}
+  #siteinfo .ym-col3 { float: none; margin-right: 25%; margin-left: 0}
+  /* xf-container are the toplevel containers */
+  .xf-container {
+    clear: both;
+    margin: 0;
+  }
+
+  .ym-cbox-left, .ym-cbox-right, .ym-cbox { position: relative; }
+}
+@media print {
+  .byline, .entry-meta,#comments,#authorbox { display: none }
+}

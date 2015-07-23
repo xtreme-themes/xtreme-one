@@ -1,0 +1,70 @@
+
+@media screen, projection {
+	/* (en) Designing main layout elements */
+	/* (de) Gestaltung der Hauptelemente des Layouts */
+	body { background: #fff }
+
+	/** Bloglayout **/
+	.ym-wbox {
+		padding: 0 10px
+	}
+	.xf-container.xf-blog {
+		padding: 1.5em 10px 0 10px
+	}
+	/** Fullpagelayout **/
+	.xf-container.xf-fullpage {
+		padding: 1.5em;
+	}
+
+	#primarynav, #secondarynav,
+	#primarynav .ym-wbox, #secondarynav .ym-wbox  { padding-top: 0 }
+	#primarynav { position: relative; z-index: 6; padding: 0 }
+	#secondarynav { position: relative; z-index: 5; padding: 0 }
+
+	#header {
+		background: #fff;
+		color: #000
+	}
+	#teaser {
+		background: #efefef
+	}
+	#main {
+		background: #fff;
+		padding-bottom: 1.5em
+	}
+	#footer {
+		background: #f8f8f8
+	}
+	#siteinfo {
+		background: #f0f0f0
+	}
+	.blogtitle { overflow: hidden }
+	.logo #header h1 a, .logo .blogtitle span, .logo .blogtitle a {
+		background: transparent url(../../images/logo.png) top left no-repeat;
+		width: 235px;
+		height: 64px;
+		display: block;
+		text-indent: -9999em
+	}
+	.logo .blogtitle a:focus { outline: none }
+
+	/**
+	* ------------------------------------------------------------------------------------------------- #
+	*
+	* Skiplinks
+	*
+	* (en) Visual styling for skiplink navigation
+	* (de) Visuelle Gestaltung der Skiplink-Navigation
+	*
+	* @section content-skiplinks
+	*/
+
+	.ym-skiplinks a.ym-skip:focus,
+	.ym-skiplinks a.ym-skip:active {
+		color: #fff;
+		background: #333;
+		border-bottom: 1px #000 solid;
+		padding: 10px 0;
+		text-decoration: none
+	}
+}

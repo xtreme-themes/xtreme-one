@@ -1,0 +1,16 @@
+img.mcexcontentwidget {
+	border: 1px dashed #888;
+	background-color: #DEE9EF;
+	width: 99%;
+	height: 150px;
+}
+
+img.mcexwidgetwordpress {
+	background: #DEE9EF url("../img/xwidget-wordpress.png") no-repeat scroll center center;
+}
+img.mcexwidget3rdparty {
+	background: #DEE9EF url("../img/xwidget-3rdparty.png") no-repeat scroll center center;
+}
+img.mcexwidgetxtreme {
+	background: #DEE9EF url("../img/xwidget-xtreme.png") no-repeat scroll center center;
+}

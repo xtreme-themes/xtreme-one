@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtreme-one-config version="1.7" theme="[install]" checksum="6a69a032506cf5370c3c0b20d61fe234">
+	<xtreme-one>
+		<xc_general type='array' size='12'>
+			<html5 type='array' size='1'>
+				<value type='bool'>false</value>
+			</html5>
+			<bodyfontsize type='array' size='2'>
+				<value type='double'>75</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</bodyfontsize>
+			<layout type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</layout>
+			<minwidth type='array' size='2'>
+				<value type='integer'>740</value>
+				<unit type='string' size='2'><![CDATA[px]]></unit>
+			</minwidth>
+			<maxwidth type='array' size='2'>
+				<value type='double'>80</value>
+				<unit type='string' size='2'><![CDATA[em]]></unit>
+			</maxwidth>
+			<width type='array' size='2'>
+				<value type='integer'>960</value>
+				<unit type='string' size='2'><![CDATA[px]]></unit>
+			</width>
+			<layoutalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</layoutalign>
+			<appearance type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</appearance>
+			<color_styles type='array' size='1'>
+				<value type='string' size='0'><![CDATA[]]></value>
+			</color_styles>
+			<aria_required type='array' size='1'>
+				<value type='bool'>false</value>
+			</aria_required>
+			<nav_vlist type='array' size='1'>
+				<value type='bool'>false</value>
+			</nav_vlist>
+			<layout_2 type='array' size='1'>
+				<value type='bool'>false</value>
+			</layout_2>
+			<responsive type='array' size='1'>
+				<value type='bool'>false</value>
+			</responsive>
+		</xc_general>
+		<xc_layout type='array' size='37'>
+			<columnlayout type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</columnlayout>
+			<col1width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</col1width>
+			<col2width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</col2width>
+			<layout_2_col1width type='array' size='2'>
+				<value type='double'>75</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</layout_2_col1width>
+			<layout_2_col2width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</layout_2_col2width>
+			<col1content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-one]]></value>
+			</col1content>
+			<col2content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-two]]></value>
+			</col2content>
+			<layout_2_col3content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-one]]></value>
+			</layout_2_col3content>
+			<layout_2_col2content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-two]]></value>
+			</layout_2_col2content>
+			<col1txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col1txtalign>
+			<col2txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col2txtalign>
+			<col3txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col3txtalign>
+			<layout_2_col3txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col3txtalign>
+			<layout_2_col2txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col2txtalign>
+			<layout_2_col1txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col1txtalign>
+			<use_header type='array' size='1'>
+				<value type='bool'>true</value>
+			</use_header>
+			<use_teaser type='array' size='1'>
+				<value type='bool'>false</value>
+			</use_teaser>
+			<use_footer type='array' size='1'>
+				<value type='bool'>false</value>
+			</use_footer>
+			<use_siteinfo type='array' size='1'>
+				<value type='bool'>true</value>
+			</use_siteinfo>
+			<nicename type='array' size='1'>
+				<value type='string' size='7'><![CDATA[Default]]></value>
+			</nicename>
+			<layoutname type='array' size='1'>
+				<value type='string' size='17'><![CDATA[xf_layout-default]]></value>
+			</layoutname>
+			<description type='array' size='1'>
+				<value type='integer'>1</value>
+			</description>
+			<mainclass type='array' size='1'>
+				<value type='string' size='9'><![CDATA[two-right]]></value>
+			</mainclass>
+			<_idx_404 type='array' size='1'>
+				<value type='bool'>true</value>
+			</_idx_404>
+			<archive type='array' size='1'>
+				<value type='bool'>true</value>
+			</archive>
+			<attachment type='array' size='1'>
+				<value type='bool'>true</value>
+			</attachment>
+			<author type='array' size='1'>
+				<value type='bool'>true</value>
+			</author>
+			<category type='array' size='1'>
+				<value type='bool'>true</value>
+			</category>
+			<homepage_widgets type='array' size='1'>
+				<value type='bool'>true</value>
+			</homepage_widgets>
+			<index type='array' size='1'>
+				<value type='bool'>true</value>
+			</index>
+			<page_comments type='array' size='1'>
+				<value type='bool'>true</value>
+			</page_comments>
+			<page type='array' size='1'>
+				<value type='bool'>true</value>
+			</page>
+			<search type='array' size='1'>
+				<value type='bool'>true</value>
+			</search>
+			<single type='array' size='1'>
+				<value type='bool'>true</value>
+			</single>
+			<sidebar_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[ul]]></value>
+			</sidebar_tag>
+			<sidebar_headline_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h5]]></value>
+			</sidebar_headline_tag>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='5'><![CDATA[aside]]></value>
+			</html5_tag>
+		</xc_layout>
+		<xc_header type='array' size='9'>
+			<columns type='array' size='1'>
+				<value type='bool'>false</value>
+			</columns>
+			<widget_area type='array' size='1'>
+				<value type='bool'>false</value>
+			</widget_area>
+			<position type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</position>
+			<colwidth type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</colwidth>
+			<show_logo type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</show_logo>
+			<blogtitle_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h1]]></value>
+			</blogtitle_tag>
+			<blog_description type='array' size='1'>
+				<value type='bool'>true</value>
+			</blog_description>
+			<blogdescription_tag type='array' size='1'>
+				<value type='string' size='1'><![CDATA[p]]></value>
+			</blogdescription_tag>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='6'><![CDATA[header]]></value>
+			</html5_tag>
+		</xc_header>
+		<xc_footer type='array' size='10'>
+			<subcolumns type='array' size='1'>
+				<value type='string' size='2'><![CDATA[26]]></value>
+			</subcolumns>
+			<txtalign_1 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_1>
+			<txtalign_2 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_2>
+			<txtalign_3 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_3>
+			<txtalign_4 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_4>
+			<txtalign_5 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_5>
+			<tag_before_widget type='array' size='1'>
+				<value type='string' size='2'><![CDATA[ul]]></value>
+			</tag_before_widget>
+			<tag_before_title type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h5]]></value>
+			</tag_before_title>
+			<syncheight type='array' size='1'>
+				<value type='bool'>false</value>
+			</syncheight>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='7'><![CDATA[section]]></value>
+			</html5_tag>
+		</xc_footer>
+		<xc_teaser type='array' size='10'>
+			<subcolumns type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</subcolumns>
+			<txtalign_1 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_1>
+			<txtalign_2 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_2>
+			<txtalign_3 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_3>
+			<txtalign_4 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_4>
+			<txtalign_5 type='array' size='1'>
+				<value type='string' size='4'><![CDATA[left]]></value>
+			</txtalign_5>
+			<tag_before_widget type='array' size='1'>
+				<value type='string' size='3'><![CDATA[div]]></value>
+			</tag_before_widget>
+			<tag_before_title type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h5]]></value>
+			</tag_before_title>
+			<syncheight type='array' size='1'>
+				<value type='bool'>false</value>
+			</syncheight>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='7'><![CDATA[section]]></value>
+			</html5_tag>
+		</xc_teaser>
+		<xc_siteinfo type='array' size='8'>
+			<columns type='array' size='1'>
+				<value type='bool'>false</value>
+			</columns>
+			<widget_area type='array' size='1'>
+				<value type='bool'>false</value>
+			</widget_area>
+			<position type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</position>
+			<colwidth type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</colwidth>
+			<copyright type='array' size='1'>
+				<value type='bool'>true</value>
+			</copyright>
+			<copyright_start type='array' size='1'>
+				<value type='string' size='4'><![CDATA[2010]]></value>
+			</copyright_start>
+			<debug type='array' size='1'>
+				<value type='bool'>false</value>
+			</debug>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='6'><![CDATA[footer]]></value>
+			</html5_tag>
+		</xc_siteinfo>
+		<xc_navigation type='array' size='27'>
+			<primary_position type='array' size='1'>
+				<value type='string' size='1'><![CDATA[5]]></value>
+			</primary_position>
+			<primary_stylesheet type='array' size='1'>
+				<value type='string' size='12'><![CDATA[shinybuttons]]></value>
+			</primary_stylesheet>
+			<primary_content type='array' size='1'>
+				<value type='string' size='5'><![CDATA[pages]]></value>
+			</primary_content>
+			<primary_order type='array' size='1'>
+				<value type='string' size='10'><![CDATA[menu_order]]></value>
+			</primary_order>
+			<primary_limitation type='array' size='1'>
+				<value type='string' size='4'><![CDATA[none]]></value>
+			</primary_limitation>
+			<primary_ids type='array' size='1'>
+				<value type='bool'>false</value>
+			</primary_ids>
+			<primary_depth type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</primary_depth>
+			<primary_showhome type='array' size='1'>
+				<value type='bool'>false</value>
+			</primary_showhome>
+			<primary_homelink type='array' size='1'>
+				<value type='string' size='4'><![CDATA[Home]]></value>
+			</primary_homelink>
+			<primary_desc_walker type='array' size='1'>
+				<value type='bool'>false</value>
+			</primary_desc_walker>
+			<primary_script type='array' size='1'>
+				<value type='bool'>false</value>
+			</primary_script>
+			<secondary_position type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</secondary_position>
+			<secondary_stylesheet type='array' size='1'>
+				<value type='string' size='12'><![CDATA[shinybuttons]]></value>
+			</secondary_stylesheet>
+			<secondary_content type='array' size='1'>
+				<value type='string' size='10'><![CDATA[categories]]></value>
+			</secondary_content>
+			<secondary_order type='array' size='1'>
+				<value type='string' size='10'><![CDATA[menu_order]]></value>
+			</secondary_order>
+			<secondary_limitation type='array' size='1'>
+				<value type='string' size='4'><![CDATA[none]]></value>
+			</secondary_limitation>
+			<secondary_ids type='array' size='1'>
+				<value type='bool'>false</value>
+			</secondary_ids>
+			<secondary_depth type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</secondary_depth>
+			<secondary_showhome type='array' size='1'>
+				<value type='bool'>false</value>
+			</secondary_showhome>
+			<secondary_homelink type='array' size='1'>
+				<value type='string' size='4'><![CDATA[Home]]></value>
+			</secondary_homelink>
+			<secondary_desc_walker type='array' size='1'>
+				<value type='bool'>false</value>
+			</secondary_desc_walker>
+			<secondary_script type='array' size='1'>
+				<value type='bool'>false</value>
+			</secondary_script>
+			<navi_search type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</navi_search>
+			<show_submit type='array' size='1'>
+				<value type='bool'>false</value>
+			</show_submit>
+			<submit_text type='array' size='1'>
+				<value type='string' size='6'><![CDATA[Senden]]></value>
+			</submit_text>
+			<input_text type='array' size='1'>
+				<value type='string' size='9'><![CDATA[Suchen...]]></value>
+			</input_text>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='3'><![CDATA[nav]]></value>
+			</html5_tag>
+		</xc_navigation>
+		<xc_pagination type='array' size='6'>
+			<pagination_type type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</pagination_type>
+			<end_size type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</end_size>
+			<mid_size type='array' size='1'>
+				<value type='string' size='1'><![CDATA[2]]></value>
+			</mid_size>
+			<show_all type='array' size='1'>
+				<value type='bool'>false</value>
+			</show_all>
+			<prev_next type='array' size='1'>
+				<value type='bool'>true</value>
+			</prev_next>
+			<type type='array' size='1'>
+				<value type='string' size='5'><![CDATA[plain]]></value>
+			</type>
+		</xc_pagination>
+		<xc_comments type='array' size='13'>
+			<show_avatar type='array' size='1'>
+				<value type='bool'>true</value>
+			</show_avatar>
+			<avatar_size type='array' size='2'>
+				<value type='integer'>40</value>
+				<unit type='string' size='2'><![CDATA[px]]></unit>
+			</avatar_size>
+			<avatar_align type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</avatar_align>
+			<tabbed_comments type='array' size='1'>
+				<value type='bool'>false</value>
+			</tabbed_comments>
+			<form_class type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</form_class>
+			<title_reply type='array' size='1'>
+				<value type='string' size='24'><![CDATA[Hinterlasse eine Antwort]]></value>
+			</title_reply>
+			<cancel_reply_link type='array' size='1'>
+				<value type='string' size='19'><![CDATA[Antworten abbrechen]]></value>
+			</cancel_reply_link>
+			<comment_notes_default type='array' size='1'>
+				<value type='string' size='90'><![CDATA[Deine Email-Adresse wird niemals veröffentlicht. Pflichtfelder sind mit * gekennzeichnet.]]></value>
+			</comment_notes_default>
+			<comment_notes_before_add type='array' size='1'>
+				<value type='bool'>false</value>
+			</comment_notes_before_add>
+			<comment_notes_before_textarea type='array' size='1'>
+				<value type='string' size='0'><![CDATA[]]></value>
+			</comment_notes_before_textarea>
+			<allowed_tags type='array' size='1'>
+				<value type='bool'>true</value>
+			</allowed_tags>
+			<label_submit type='array' size='1'>
+				<value type='string' size='20'><![CDATA[Kommentar abschicken]]></value>
+			</label_submit>
+			<comment_ping_headline_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h5]]></value>
+			</comment_ping_headline_tag>
+		</xc_comments>
+		<xc_print type='array' size='4'>
+			<byline type='array' size='1'>
+				<value type='bool'>false</value>
+			</byline>
+			<authorbox type='array' size='1'>
+				<value type='bool'>false</value>
+			</authorbox>
+			<comments type='array' size='1'>
+				<value type='bool'>false</value>
+			</comments>
+			<url_output type='array' size='1'>
+				<value type='bool'>false</value>
+			</url_output>
+		</xc_print>
+		<xc_wordpress type='array' size='13'>
+			<xtreme_title type='array' size='1'>
+				<value type='bool'>false</value>
+			</xtreme_title>
+			<xtreme_meta_description type='array' size='1'>
+				<value type='bool'>false</value>
+			</xtreme_meta_description>
+			<xtreme_meta_robots type='array' size='1'>
+				<value type='bool'>false</value>
+			</xtreme_meta_robots>
+			<feed_links_extra type='array' size='1'>
+				<value type='bool'>false</value>
+			</feed_links_extra>
+			<feed_links type='array' size='1'>
+				<value type='bool'>false</value>
+			</feed_links>
+			<rsd_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</rsd_link>
+			<wlwmanifest_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</wlwmanifest_link>
+			<index_rel_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</index_rel_link>
+			<parent_post_rel_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</parent_post_rel_link>
+			<start_post_rel_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</start_post_rel_link>
+			<adjacent_posts_rel_link type='array' size='1'>
+				<value type='bool'>false</value>
+			</adjacent_posts_rel_link>
+			<wp_shortlink_wp_head type='array' size='1'>
+				<value type='bool'>false</value>
+			</wp_shortlink_wp_head>
+			<wp_generator type='array' size='1'>
+				<value type='bool'>false</value>
+			</wp_generator>
+		</xc_wordpress>
+	</xtreme-one>
+	<xtreme-one_layouts>
+		<xf_layout-default type='array' size='38'>
+			<columnlayout type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</columnlayout>
+			<col1width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</col1width>
+			<col2width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</col2width>
+			<layout_2_col1width type='array' size='2'>
+				<value type='double'>75</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</layout_2_col1width>
+			<layout_2_col2width type='array' size='2'>
+				<value type='double'>25</value>
+				<unit type='string' size='1'><![CDATA[%]]></unit>
+			</layout_2_col2width>
+			<col1content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-one]]></value>
+			</col1content>
+			<col2content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-two]]></value>
+			</col2content>
+			<layout_2_col3content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-one]]></value>
+			</layout_2_col3content>
+			<layout_2_col2content type='array' size='1'>
+				<value type='string' size='11'><![CDATA[sidebar-two]]></value>
+			</layout_2_col2content>
+			<col1txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col1txtalign>
+			<col2txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col2txtalign>
+			<col3txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</col3txtalign>
+			<layout_2_col3txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col3txtalign>
+			<layout_2_col2txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col2txtalign>
+			<layout_2_col1txtalign type='array' size='1'>
+				<value type='string' size='1'><![CDATA[0]]></value>
+			</layout_2_col1txtalign>
+			<use_header type='array' size='1'>
+				<value type='bool'>true</value>
+			</use_header>
+			<use_teaser type='array' size='1'>
+				<value type='bool'>false</value>
+			</use_teaser>
+			<use_footer type='array' size='1'>
+				<value type='bool'>false</value>
+			</use_footer>
+			<use_siteinfo type='array' size='1'>
+				<value type='bool'>true</value>
+			</use_siteinfo>
+			<nicename type='array' size='1'>
+				<value type='string' size='7'><![CDATA[Default]]></value>
+			</nicename>
+			<layoutname type='array' size='1'>
+				<value type='string' size='17'><![CDATA[xf_layout-default]]></value>
+			</layoutname>
+			<description type='array' size='1'>
+				<value type='string' size='26'><![CDATA[2 Spalten - rechte Sidebar]]></value>
+			</description>
+			<mainclass type='array' size='1'>
+				<value type='string' size='9'><![CDATA[two-right]]></value>
+			</mainclass>
+			<_idx_404 type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</_idx_404>
+			<archive type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</archive>
+			<attachment type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</attachment>
+			<author type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</author>
+			<category type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</category>
+			<homepage_widgets type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</homepage_widgets>
+			<index type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</index>
+			<page_comments type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</page_comments>
+			<page type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</page>
+			<search type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</search>
+			<single type='array' size='1'>
+				<value type='string' size='1'><![CDATA[1]]></value>
+			</single>
+			<sidebar_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[ul]]></value>
+			</sidebar_tag>
+			<sidebar_headline_tag type='array' size='1'>
+				<value type='string' size='2'><![CDATA[h5]]></value>
+			</sidebar_headline_tag>
+			<html5_tag type='array' size='1'>
+				<value type='string' size='5'><![CDATA[aside]]></value>
+			</html5_tag>
+			<is_layout_2 type='array' size='1'>
+				<value type='integer'>0</value>
+			</is_layout_2>
+		</xf_layout-default>
+	</xtreme-one_layouts>
+	<xtreme-one_templates>
+		<_php_404 type='string' size='17'><![CDATA[xf_layout-default]]></_php_404>
+		<_php_archive type='string' size='17'><![CDATA[xf_layout-default]]></_php_archive>
+		<_php_attachment type='string' size='17'><![CDATA[xf_layout-default]]></_php_attachment>
+		<_php_author type='string' size='17'><![CDATA[xf_layout-default]]></_php_author>
+		<_php_category type='string' size='17'><![CDATA[xf_layout-default]]></_php_category>
+		<_php_homepage_widgets type='string' size='17'><![CDATA[xf_layout-default]]></_php_homepage_widgets>
+		<_php_index type='string' size='17'><![CDATA[xf_layout-default]]></_php_index>
+		<_php_page-comments type='string' size='17'><![CDATA[xf_layout-default]]></_php_page-comments>
+		<_php_page type='string' size='17'><![CDATA[xf_layout-default]]></_php_page>
+		<_php_search type='string' size='17'><![CDATA[xf_layout-default]]></_php_search>
+		<_php_single type='string' size='17'><![CDATA[xf_layout-default]]></_php_single>
+	</xtreme-one_templates>
+	<xtreme-one_widget-settings>
+		<general_permission type='bool'>true</general_permission>
+		<widgets-disabled type='array' size='0'>
+		</widgets-disabled>
+		<widgets-general-enabled type='array' size='0'>
+		</widgets-general-enabled>
+		<enable_filter_system type='bool'>false</enable_filter_system>
+		<enable_auto_tabs type='bool'>false</enable_auto_tabs>
+		<content_widget_role type='string' size='13'><![CDATA[administrator]]></content_widget_role>
+		<filter type='array' size='27'>
+			<is_front_page type='array' size='0'>
+			</is_front_page>
+			<is_home type='array' size='0'>
+			</is_home>
+			<is_singular type='array' size='0'>
+			</is_singular>
+			<is_single type='array' size='0'>
+			</is_single>
+			<is_page type='array' size='0'>
+			</is_page>
+			<is_attachment type='array' size='0'>
+			</is_attachment>
+			<is_paged type='array' size='0'>
+			</is_paged>
+			<is_archive type='array' size='0'>
+			</is_archive>
+			<is_category type='array' size='0'>
+			</is_category>
+			<in_category type='array' size='0'>
+			</in_category>
+			<is_tag type='array' size='0'>
+			</is_tag>
+			<has_tag type='array' size='0'>
+			</has_tag>
+			<is_author type='array' size='0'>
+			</is_author>
+			<has_author type='array' size='0'>
+			</has_author>
+			<is_date type='array' size='0'>
+			</is_date>
+			<is_day type='array' size='0'>
+			</is_day>
+			<is_month type='array' size='0'>
+			</is_month>
+			<is_year type='array' size='0'>
+			</is_year>
+			<is_time type='array' size='0'>
+			</is_time>
+			<is_search type='array' size='0'>
+			</is_search>
+			<is_404 type='array' size='0'>
+			</is_404>
+			<post-format type='array' size='0'>
+			</post-format>
+			<in_postformat type='array' size='0'>
+			</in_postformat>
+			<has_role type='array' size='0'>
+			</has_role>
+			<has_cap type='array' size='0'>
+			</has_cap>
+			<is_mobile_device type='array' size='0'>
+			</is_mobile_device>
+			<is_mobile_device_archive type='array' size='0'>
+			</is_mobile_device_archive>
+		</filter>
+	</xtreme-one_widget-settings>
+	<xtreme-one_burning-reg>
+	</xtreme-one_burning-reg>
+</xtreme-one-config>

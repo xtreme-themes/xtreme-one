@@ -1,0 +1,111 @@
+@media all
+{
+	.slidingdoor.xf-fullpage { background:#c8ddf3 }
+	.slidingdoor .ym-hlist {
+		/* (en) This image is mainly transparent */
+		/* (de) Dieses Bild ist größtenteils transparent */
+		background:transparent url("../../yaml/navigation/images/sliding_door/round/bg.gif") repeat-x bottom;
+		float:left;
+		width:100%
+	}
+
+	.slidingdoor .ym-hlist ul {
+		margin:0;
+		padding:0;
+		line-height:1em;
+		list-style:none;
+		white-space:nowrap
+	}
+
+	.slidingdoor .ym-hlist li {
+		/* (en) Repeat the main color from the image */
+		/* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+		list-style-type:none !important;
+		background:#e0ecf8 url("../../yaml/navigation/images/sliding_door/round/left.png") no-repeat top left;
+		border-bottom:1px solid #000;
+		float:left; /* LTR */
+		margin:0;
+		padding:0 0 0 3px
+	}
+
+	.slidingdoor .ym-hlist a {
+		/* (en) This image is mainly transparent */
+		/* (de) Dieses Bild ist größtenteils transparent */
+		background:transparent url("../../yaml/navigation/images/sliding_door/round/right.png") no-repeat top right;
+		color:#667;
+		display:block;
+		font-weight:normal;
+		padding:5px 11px 3px 8px;
+		text-decoration:none;
+		text-transform:none;
+
+		/**
+		* @bugfix
+		* @affected   IE5.x, IE6
+		* @css-for    all browsers
+		* @valid      yes
+		*/
+		width:auto; /* only IE 5.x */
+		width/**/:/**/ .1em /* only IE 6.0 */
+	}
+
+	.slidingdoor .ym-hlist a:link,
+	.slidingdoor .ym-hlist a:visited { background-color:transparent; color:#667 }
+
+	/**
+	* @bugfix
+	* @affected   IE5.x, IE6
+	* @css-for    all browsers
+	* @valid      yes
+	*/
+	.slidingdoor .ym-hlist > ul a { width:auto }  /* for other browsers */
+
+	.slidingdoor .ym-hlist ul li:focus,
+	.slidingdoor .ym-hlist ul li:hover,
+	.slidingdoor .ym-hlist ul li:active {
+		/* (en) Repeat the main color from the image */
+		/* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+		background-color:#c4d0dc;
+		background-position:0 -150px
+	}
+
+	.slidingdoor .ym-hlist ul li:focus a,
+	.slidingdoor .ym-hlist ul li:hover a,
+	.slidingdoor .ym-hlist ul li:active a { background-position:100% -150px }
+
+	.slidingdoor .ym-hlist a:focus,
+	.slidingdoor .ym-hlist a:hover,
+	.slidingdoor .ym-hlist a:active {
+		background:transparent url("../../yaml/navigation/images/sliding_door/round/right.png") no-repeat top right;
+		color:#223;
+		outline: 0 none;
+		text-decoration:none
+	}
+
+	.slidingdoor .ym-hlist ul li.current_page_item,
+	.slidingdoor .ym-hlist ul li.current_page_item:focus,
+	.slidingdoor .ym-hlist ul li.current_page_item:hover,
+	.slidingdoor .ym-hlist ul li.current_page_item:active {
+		/* (en) Repeat the main color from the image */
+		/* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+		background:white url("../../yaml/navigation/images/sliding_door/round/left_on.png") no-repeat top left;
+		border:0 none
+	}
+
+	.slidingdoor .ym-hlist li.current_page_item a, .slidingdoor .ym-hlist li.current_page_item a:hover,
+	.slidingdoor .ym-hlist li.current_page_item a:focus, .slidingdoor .ym-hlist li.current_page_item a:active {
+		/* (en) This image is mainly transparent */
+		/* (de) Dieses Bild ist größtenteils transparent */
+		background:transparent url("../../yaml/navigation/images/sliding_door/round/right_on.png") no-repeat top right;
+		color:#334;
+		font-weight:bold;
+		padding-bottom:4px;
+		padding-top:5px
+	}
+
+	.slidingdoor #searchform {
+		background:transparent url("../../yaml/navigation/images/sliding_door/round/right.png") no-repeat top right
+	}
+	.slidingdoor #searchform div { padding: .25em .5em 0 .5em }
+	.slidingdoor #searchform:hover { background-color:transparent; background-position: 100% -150px }
+}
