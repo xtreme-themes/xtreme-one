@@ -9,7 +9,7 @@ Nach Aktivierung des Childthemes (das Framework selbst wird nicht als Theme akti
 
 ## Wiki
 Bitte alle Informationen im Wiki ablegen, die die Entwicklung und Anwendung des Xtreme One betreffen.
-https://github.com/inpsyde/xtreme-one/wiki
+https://github.com/xtreme-themes/xtreme-one/wiki
 
 
 # Changelog
