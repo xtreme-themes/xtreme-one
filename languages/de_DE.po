@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xtreme One v1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-24 09:53+0100\n"
-"PO-Revision-Date: 2015-07-23 15:30:07+0000\n"
+"PO-Revision-Date: 2015-08-07 01:33:30+0000\n"
 "Last-Translator: admin <c.brueckner@inpsyde.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -4530,7 +4530,7 @@ msgstr "Link-Text für Google+ Link:"
 #@ xtreme-one
 msgctxt "Documentation Link for Xtreme"
 msgid "https://github.com/xtreme-themes/xtreme-one/wiki"
-msgstr "https://github.com/xtreme-themes/xtreme-one/xt/wiki/Xtreme-One-Dokumentation"
+msgstr "https://github.com/xtreme-themes/xtreme-one/wiki/Xtreme-One-Dokumentation"
 
 #: admin/includes/xtreme-github-updater.php:27
 #@ xtreme-one
