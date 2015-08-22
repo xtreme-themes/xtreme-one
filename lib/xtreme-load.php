@@ -2,7 +2,7 @@
 
 global $wp_version;
 
-define('XF_VERSION', '1.7');
+define('XF_VERSION', '1.7.1');
 define('XF_WP_MIN_VERSION', '3.8');
 
 define('XF_THEME_DIR', apply_filters('template_directory', get_template_directory()));

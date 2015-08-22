@@ -14,6 +14,11 @@ https://github.com/xtreme-themes/xtreme-one/wiki
 
 # Changelog
 
+
+## 1.7.1
+### Fixes
+* #3 Documentation - Fixed German link
+
 ## 1.7
 ### Enhancements
 * #188 Xtreme Settings - move "generate Theme"-Button to top of page
